@@ -15,24 +15,29 @@ const Login = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        await axios
-            .post(
-                `${server}/user/login-user`,
+        try {
+            const response = await axios.post(
+                `${server}/login`,
                 {
                     email,
                     password,
                 },
                 { withCredentials: true }
-            )
-            .then((res) => {
+            );
+            console.log(response.data)
+            if (response && response.data) {
+                // Check if response.data exists before accessing its properties
                 toast.success("Login Success!");
                 navigate("/");
                 window.location.reload(true);
-            })
-            .catch((err) => {
-                toast.error(err.response.data.message);
-            });
+            } else {
+                toast.error("Unexpected response format");
+            }
+        } catch (err) {
+            toast.error(err.response?.data?.message || "Login failed");
+        }
     };
+
 
     return (
         <div className="min-h-screen bg-gray-50 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
