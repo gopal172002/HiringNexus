@@ -70,7 +70,7 @@ const Header = ({ activeHeading }) => {
                             placeholder="Search Product..."
                             value={searchTerm}
                             onChange={handleSearchChange}
-                            className="h-[40px] w-full px-2 border-[#3957db] border-[2px] rounded-md"
+                            className="h-[40px] w-full px-2 border-[#2aaa2a] border-[2px] rounded-md"
                         />
                         <AiOutlineSearch
                             size={30}
@@ -109,7 +109,7 @@ const Header = ({ activeHeading }) => {
             <div
                 className={`${
                     active === true ? "shadow-sm fixed top-0 left-0 z-10" : null
-                } transition hidden 800px:flex items-center justify-between w-full bg-[#3321c8] h-[70px]`}
+                } transition hidden 800px:flex items-center justify-between w-full bg-[#4db64f] h-[70px]`}
             >
                 <div
                     className={`${styles.section} relative ${styles.noramlFlex} justify-between`}
@@ -121,7 +121,7 @@ const Header = ({ activeHeading }) => {
                             <button
                                 className={`h-[100%] w-full flex justify-between items-center pl-10 bg-white font-sans text-lg font-[500] select-none rounded-t-md`}
                             >
-                                All Categories
+                                All Products
                             </button>
                             <IoIosArrowDown
                                 size={20}
@@ -216,7 +216,7 @@ const Header = ({ activeHeading }) => {
                     <div>
                         <Link to="/">
                             <img
-                                src=""
+                                src="../../images/logoFarmer.png"
                                 alt="logoo"
                                 className="mt-3 cursor-pointer"
                             />
