@@ -1,17 +1,15 @@
 import React from 'react';
-import Signup from "../components/Signup/Signup.jsx"
+// import Login from "../components/Aboutus/Aboutus.jsx"
 import Headers from "../components/Layout/Header.jsx"
 import Footer from "../components/Layout/Footer.jsx"
-import Bestdeals from "../components/Route/BestDeals/BestDeals.jsx"
 // Define a simple React component
-const SignupPagePage = () => {
+const AboutPage = () => {
   return (
     <div>
     <Headers activeheading={1}/>
-      <Signup/>
+        ABOUT
       <Footer/>
-      <Bestdeals/>
     </div>
   );
 };
-export default SignupPagePage;
+export default AboutPage;
