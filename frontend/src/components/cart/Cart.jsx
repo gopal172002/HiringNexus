@@ -74,12 +74,12 @@ const Cart = ({ setOpenCart }) => {
 
                         <div className="px-5 mb-3">
                             {/* checkout buttons */}
-                            <Link to="/checkout">
+                            <Link to="/buynow">
                                 <div
                                     className={`h-[45px] flex items-center justify-center w-[100%] bg-[#e44343] rounded-[5px]`}
                                 >
                                     <h1 className="text-[#fff] text-[18px] font-[600]">
-                                        Checkout Now (USD${totalPrice})
+                                        Buy Now (Rs{totalPrice})
                                     </h1>
                                 </div>
                             </Link>

@@ -288,7 +288,11 @@ const Header = ({ activeHeading }) => {
                             <div className={`${styles.button} ml-4 !rounded-[4px]`}>
                                <Link to="/products">
                                    <h1 className="text-[#fff] flex items-center">
+
                                        Shop Now <IoIosArrowForward className="ml-1" />
+
+                                       Shop Now
+
                                    </h1>
                                </Link>
                             </div>
