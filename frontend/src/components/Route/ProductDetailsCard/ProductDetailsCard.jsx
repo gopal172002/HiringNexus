@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 import styles from "../../../styles/styles";
 import { useDispatch, useSelector } from "react-redux";
 import { toast } from "react-toastify";
-import { addTocart } from "../../../redux/actions/cart";
+import { addToCart } from "../../../redux/actions/cart";
 import {
     addToWishlist,
     removeFromWishlist,
@@ -37,7 +37,7 @@ const ProductDetailsCard = ({ setOpen, data }) => {
     };
 
     const addToCartHandler = (id) => {
-        const isItemExists = cart && cart.find((i) => i._id === id);
+        const isItemExists = cart && cart.find((i) => i.id === id);
         if (isItemExists) {
             toast.error("Item already in cart!");
         } else {
@@ -45,14 +45,14 @@ const ProductDetailsCard = ({ setOpen, data }) => {
                 toast.error("Product stock limited!");
             } else {
                 const cartData = { ...data, qty: count };
-                dispatch(addTocart(cartData));
+                dispatch(addToCart(cartData));
                 toast.success("Item added to cart successfully!");
             }
         }
     };
 
     useEffect(() => {
-        if (wishlist && wishlist.find((i) => i._id === data._id)) {
+        if (wishlist && wishlist.find((i) => i.id === data.id)) {
             setClick(true);
         } else {
             setClick(false);

@@ -5,7 +5,7 @@ import { HiOutlineMinus, HiPlus } from "react-icons/hi";
 import styles from "../../styles/styles";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { addTocart, removeFromCart } from "../../redux/actions/cart";
+import { addToCart, removeFromCart } from "../../redux/actions/cart";
 import { toast } from "react-toastify";
 
 const Cart = ({ setOpenCart }) => {
@@ -22,7 +22,7 @@ const Cart = ({ setOpenCart }) => {
     );
 
     const quantityChangeHandler = (data) => {
-        dispatch(addTocart(data));
+        dispatch(addToCart(data));
     };
 
     return (
@@ -130,7 +130,7 @@ const CartSingle = ({ data, quantityChangeHandler, removeFromCartHandler }) => {
                     </div>
                 </div>
                 <img
-                    src={`${data?.images[0]?.url}`}
+                    // src={`${data?.images[0]?.url}`}
                     alt=""
                     className="w-[130px] h-min ml-2 mr-2 rounded-[5px]"
                 />
