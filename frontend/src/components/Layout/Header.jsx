@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import styles from "../../styles/styles";
-import { categoriesData, productData } from "../../static/data";
+// import { categoriesData, productData } from "../../static/data";
 import {
     AiOutlineHeart,
     AiOutlineSearch,
@@ -10,13 +10,13 @@ import {
 import { IoIosArrowDown, IoIosArrowForward } from "react-icons/io";
 import { BiMenuAltLeft } from "react-icons/bi";
 import { CgProfile } from "react-icons/cg";
-import DropDown from "./DropDown";
+
 import Navbar from "./Navbar";
 import { useSelector } from "react-redux";
 import Cart from "../cart/Cart";
 import Wishlist from "../Wishlist/Wishlist";
 import { RxCross1 } from "react-icons/rx";
-
+import LogoImage from '../../images/logoFarmer.png' 
 const Header = ({ activeHeading }) => {
     const { isAuthenticated, user } = useSelector((state) => state.user);
     const { isSeller } = useSelector((state) => state.seller);
@@ -55,15 +55,20 @@ const Header = ({ activeHeading }) => {
         <>
             <div className={`${styles.section}`}>
                 <div className="hidden 800px:h-[50px] 800px:my-[20px] 800px:flex items-center justify-between">
-                    <div>
-                        <Link to="/">
-                            <img
-                                src="../../images/logoFarmer.png"
-                                alt="logoooo"
-                            />
-                        </Link>
-                    </div>
+                <div className="w-full h-full flex items-center justify-start">
+    <Link to="/">
+        <img
+            src={LogoImage}
+            alt="logo"
+            className="w-24 h-auto " // Add responsive margin-left classes
+        />
+    </Link>
+</div >
+
+
+
                     {/* search box */}
+                    <div className="w-full h-full flex items-center justify-center gap-8">
                     <div className="w-[50%] relative">
                         <input
                             type="text"
@@ -96,13 +101,16 @@ const Header = ({ activeHeading }) => {
                             </div>
                         ) : null}
                     </div>
-
-                    <div className={`${styles.button}`}>
+                  
+                    <div className={`${styles.button}`} >
                        <Link to={"/products"}>
-                           <h1 className="text-[#fff] flex items-center">
-                                Shop Now
-                            </h1>
+                       <h1 className="text-[#fff] flex items-center justify-center ">
+                              Shop Now
+                                   </h1>
+
+
                         </Link>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -115,27 +123,7 @@ const Header = ({ activeHeading }) => {
                     className={`${styles.section} relative ${styles.noramlFlex} justify-between`}
                 >
                     {/* categories */}
-                    <div onClick={() => setDropDown(!dropDown)}>
-                        <div className="relative h-[60px] mt-[10px] w-[270px] hidden 1000px:block">
-                            <BiMenuAltLeft size={30} className="absolute top-3 left-2" />
-                            <button
-                                className={`h-[100%] w-full flex justify-between items-center pl-10 bg-white font-sans text-lg font-[500] select-none rounded-t-md`}
-                            >
-                                All Products
-                            </button>
-                            <IoIosArrowDown
-                                size={20}
-                                className="absolute right-2 top-4 cursor-pointer"
-                                onClick={() => setDropDown(!dropDown)}
-                            />
-                            {dropDown ? (
-                                <DropDown
-                                    categoriesData={categoriesData}
-                                    setDropDown={setDropDown}
-                                />
-                            ) : null}
-                        </div>
-                    </div>
+                  
                     {/* navitems */}
                     <div className={`${styles.noramlFlex}`}>
                         <Navbar active={activeHeading} />
@@ -213,15 +201,15 @@ const Header = ({ activeHeading }) => {
                             onClick={() => setOpen(true)}
                         />
                     </div>
-                    <div>
-                        <Link to="/">
-                            <img
-                                src="../../images/logoFarmer.png"
-                                alt="logoo"
-                                className="mt-3 cursor-pointer"
-                            />
-                        </Link>
-                    </div>
+                    <div className="w-full h-full flex items-center justify-center">
+    <Link to="/">
+        <img
+            src={LogoImage}
+            alt="logo"
+            className="w-24 h-auto " // Add responsive margin-left classes
+        />
+    </Link>
+</div>
                     <div>
                         <div
                             className="relative mr-[20px]"
@@ -300,7 +288,11 @@ const Header = ({ activeHeading }) => {
                             <div className={`${styles.button} ml-4 !rounded-[4px]`}>
                                <Link to="/products">
                                    <h1 className="text-[#fff] flex items-center">
+
+                                       Shop Now <IoIosArrowForward className="ml-1" />
+
                                        Shop Now
+
                                    </h1>
                                </Link>
                             </div>
