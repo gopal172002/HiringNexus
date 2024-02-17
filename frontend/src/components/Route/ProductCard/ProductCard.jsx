@@ -16,7 +16,7 @@ import {
     removeFromWishlist,
 } from "../../../redux/actions/wishlist";
 import { useEffect } from "react";
-import { addTocart } from "../../../redux/actions/cart";
+import { addToCart } from "../../../redux/actions/cart";
 import { toast } from "react-toastify";
 import Ratings from "../../Products/Ratings";
 
@@ -26,9 +26,9 @@ const ProductCard = ({ data,isEvent }) => {
     const [click, setClick] = useState(false);
     const [open, setOpen] = useState(false);
     const dispatch = useDispatch();
-
+    console.log(data.id);
     useEffect(() => {
-        if (wishlist && wishlist.find((i) => i._id === data._id)) {
+        if (wishlist && wishlist.find((i) => i.id === data.id)) {
             setClick(true);
         } else {
             setClick(false);
@@ -46,7 +46,7 @@ const ProductCard = ({ data,isEvent }) => {
     };
 
     const addToCartHandler = (id) => {
-        const isItemExists = cart && cart.find((i) => i._id === id);
+        const isItemExists = cart && cart.find((i) => i.id === id);
         if (isItemExists) {
             toast.error("Item already in cart!");
         } else {
@@ -54,8 +54,11 @@ const ProductCard = ({ data,isEvent }) => {
                 toast.error("Product stock limited!");
             } else {
                 const cartData = { ...data, qty: 1 };
-                dispatch(addTocart(cartData));
+            
+                dispatch(addToCart(cartData));
+                  
                 toast.success("Item added to cart successfully!");
+               
             }
         }
     };
