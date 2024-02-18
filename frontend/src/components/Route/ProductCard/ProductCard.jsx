@@ -26,7 +26,7 @@ const ProductCard = ({ data, isEvent }) => {
     const [click, setClick] = useState(false);
     const [open, setOpen] = useState(false);
     const dispatch = useDispatch();
-    console.log(data.id);
+   //console.log(data.price);
     useEffect(() => {
         if (wishlist && wishlist.find((i) => i.id === data.id)) {
             setClick(true);
@@ -87,7 +87,7 @@ const ProductCard = ({ data, isEvent }) => {
                         <h5 className={`${styles.productDiscountPrice}`}>
                             {data.originalPrice === 0
                                 ? data.originalPrice
-                                : data.discountPrice}
+                                : data.discount_price}
                             $
                         </h5>
                         <h4 className={`${styles.price}`}>

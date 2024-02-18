@@ -82,11 +82,11 @@ const ProductDetailsCard = ({ setOpen, data }) => {
 
                         <div className="block w-full 800px:flex">
                             <div className="w-full 800px:w-[50%]">
-                                <img src={`${data.images && data.images[0]?.url}`} alt="" />
+                                <img src={`${data?.image_Url[0].url}`} alt="" />
                                 <div className="flex">
-                                    <Link to={`/shop/preview/${data.shop._id}`} className="flex">
+                                    <Link to={`/shop/preview/${data.shop.id}`} className="flex">
                                         <img
-                                            src={`${data.images && data.images[0]?.url}`}
+                                            src={`${data?.image_Url[0].url}`}
                                             alt=""
                                             className="w-[50px] h-[50px] rounded-full mr-2"
                                         />
@@ -117,10 +117,10 @@ const ProductDetailsCard = ({ setOpen, data }) => {
 
                                 <div className="flex pt-3">
                                     <h4 className={`${styles.productDiscountPrice}`}>
-                                        {data.discountPrice}$
+                                        {data.discount_price}$
                                     </h4>
                                     <h3 className={`${styles.price}`}>
-                                        {data.originalPrice ? data.originalPrice + "$" : null}
+                                        {data.price ? data.price + "$" : null}
                                     </h3>
                                 </div>
                                 <div className="flex items-center mt-12 justify-between pr-3">
@@ -162,7 +162,7 @@ const ProductDetailsCard = ({ setOpen, data }) => {
                                 </div>
                                 <div
                                     className={`${styles.button} mt-6 rounded-[4px] h-11 flex items-center`}
-                                    onClick={() => addToCartHandler(data._id)}
+                                    onClick={() => addToCartHandler(data.id)}
                                 >
                   <span className="text-[#fff] flex items-center">
                     Add to cart <AiOutlineShoppingCart className="ml-1" />
