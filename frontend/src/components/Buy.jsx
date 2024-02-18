@@ -8,7 +8,7 @@ const BuyNowPage = () => {
   const dispatch = useDispatch();
   const selectedProduct = useSelector((state) => state.selectedProduct);
   const user = useSelector((state) => state.user);
-
+console.log(user);
   const [quantity, setQuantity] = useState(1);
   const [shippingDetails, setShippingDetails] = useState({
     fullName: "",
