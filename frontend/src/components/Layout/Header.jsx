@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import styles from "../../styles/styles";
-// import { categoriesData, productData } from "../../static/data";
 import {
     AiOutlineHeart,
     AiOutlineSearch,
@@ -289,7 +288,7 @@ const Header = ({ activeHeading }) => {
                                <Link to="/products">
                                    <h1 className="text-[#fff] flex items-center">
 
-                                       Shop Now <IoIosArrowForward className="ml-1" />
+                             <IoIosArrowForward className="ml-1" />
 
                                        Shop Now
 

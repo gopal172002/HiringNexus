@@ -1,4 +1,6 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
+import axios from 'axios';
+import { server } from "../../server";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -17,8 +19,14 @@ const ContactForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle form submission logic here
-    console.log(formData);
+
+    try {
+      const response = await axios.post(`${server}/contactus`, formData);
+      console.log('Form submitted successfully:', response.data);
+    } catch (error) {
+      // Handle errors
+      console.error('Error submitting form:', error);
+    }
   };
 
   return (

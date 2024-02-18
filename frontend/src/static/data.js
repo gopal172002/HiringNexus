@@ -1,58 +1,58 @@
 // navigation Data
-import ImageDaal from '../images/daal1.jpg'
-import AmaranthRajgira from '../images/AmaranthRajgira.png'
+// import ImageDaal from '../images/daal1.jpg'
+// import AmaranthRajgira from '../images/AmaranthRajgira.png'
 import CorianderWhole from '../images/CorianderWhole.png'
 import AmaranthRajgiraPack from '../images/AmaranthRajgiraPack.png.jpg'
-import Awal2 from '../images/awal2.jpg'
+// import Awal2 from '../images/awal2.jpg'
 import AwlaCandies from '../images/AwlaCandies.jpg'
-import AwlaCandy from '../images/Awlacandy.jpg'
+// import AwlaCandy from '../images/Awlacandy.jpg'
 import BlackGramSplit from '../images/blackGramSplit.png'
 import ChickpeaFlour from '../images/chickpea flour.png'
 import ChickpeaSplit from '../images/chickpea split.png'
 import Chickpea from '../images/chickpea.png'
 import CorianderPowder from '../images/CorianderPowder.png'
-import CorianderPowderPack from '../images/CorianderPowderPack.png.jpg'
-import Farmer from '../images/farmer.jpg'
-import Farms from '../images/Farms.jpg'
+// import CorianderPowderPack from '../images/CorianderPowderPack.png.jpg'
+// import Farmer from '../images/farmer.jpg'
+// import Farms from '../images/Farms.jpg'
 import FenugreekSeed from '../images/Fenugreek seed.png'
 import Flaxseed from '../images/Flaxseed.png'
 import GiloyPowder from '../images/GiloyPowder.png'
-import GiloyPowderPack from '../images/GiloyPwderPack.jpg'
+// import GiloyPowderPack from '../images/GiloyPwderPack.jpg'
 import GingerPowder from '../images/GingerPowder.png'
 import GoosberryCandy from '../images/goosberryCandy.png'
 import GoosberryPowder from '../images/goosberryPowder.png'
 import GramFlour from '../images/gram flour.png'
 import GroundnutOil from '../images/Groundnut Oil.png'
 import Groundnuts from '../images/groundnuts.png'
-import Haldi from '../images/haldi.jpg'
-import Haldi2 from '../images/haldi2.mp4'
-import Haldi3 from '../images/haldi3.jpg'
-import Haldi5 from '../images/Haldi5.jpg'
-import HaldiChips from '../images/HaldiChips.jpg'
+// import Haldi from '../images/haldi.jpg'
+// import Haldi2 from '../images/haldi2.mp4'
+// import Haldi3 from '../images/haldi3.jpg'
+// import Haldi5 from '../images/Haldi5.jpg'
+// import HaldiChips from '../images/HaldiChips.jpg'
 import HennaPowder from '../images/HennaPowder.png'
 import Hibiscus from '../images/Hibiscus.jpg'
 import KabuliChana from '../images/Kabuli chana.png'
 import LogoFarmer from '../images/logoFarmer.png'
-import MehandiChnaAwla from '../images/mehandichnaawla.jpg'
+// import MehandiChnaAwla from '../images/mehandichnaawla.jpg'
 import MoringaLeafPowder from '../images/MoringaLeafPowder.png'
-import MoringaLeafPowderPack from '../images/MoringaLeafPowderPack.png.jpg'
+// import MoringaLeafPowderPack from '../images/MoringaLeafPowderPack.png.jpg'
 import MustardSmall from '../images/Mustard(small).png'
 import MustardSmallRaiPack from '../images/MustardSmallRaipack.jpg'
-import MyPics from '../images/myPics.jpg'
+// import MyPics from '../images/myPics.jpg'
 import Nutripowder from '../images/Nutripowder.png'
 import NutriPwderPack from '../images/NutriPwderPack.jpg'
-import Nuts from '../images/nuts.jpg'
-import OilRefining from '../images/oilrefining.jpg'
-import OurPartners from '../images/ourpartners.jpg'
-import Packets from '../images/packets.jpg'
-import Turmeric from '../images/Turmeric.jpg'
+// import Nuts from '../images/nuts.jpg'
+// import OilRefining from '../images/oilrefining.jpg'
+// import OurPartners from '../images/ourpartners.jpg'
+// import Packets from '../images/packets.jpg'
+// import Turmeric from '../images/Turmeric.jpg'
 import TurmericHighCurcumin from '../images/turmeric high Curcumin.png'
 import SesamOil from '../images/sesamOil.png'
 import RoselleFlower from '../images/Roselle flower.jpg'
 import RoselleCandy from '../images/Roselle Candy.jpg'
 import RoastedFlaxSeed from '../images/RoastedFlaxSeed.jpg'
-import RaiHaldi from '../images/RaiHaldi.jpg'
-import QualityCertificate from '../images/QualityCertificate.jpg'
+// import RaiHaldi from '../images/RaiHaldi.jpg'
+// import QualityCertificate from '../images/QualityCertificate.jpg'
 import PigeonpeasSplit from '../images/pigeonpeas split.png'
 
 
@@ -940,19 +940,19 @@ export const navItems = [
   
   export const footercompanyLinks = [
     {
-      name: "Game & Video",
+      name: "Turmeric Powder",
     },
     {
-      name: "Phone &Tablets",
+      name: "Coriander Whole",
     },
     {
-      name: "Computers & Laptop",
+      name: "Roselle Candy",
     },
     {
-      name: "Sport Watches",
+      name: "Heena Powder",
     },
     {
-      name: "Events",
+      name: "Fenugreek",
     },
   ];
   

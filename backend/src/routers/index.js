@@ -3,7 +3,8 @@ const router = new express.Router();
 const User = require("../models");
 const bcrypt = require("bcryptjs");
 const saltRounds = 10;
-
+const Order = require('../models/order');
+const    ContactForm =require('../models/contact');
 // Route for user registration
 router.post("/register", async (req, res) => {
     try {
@@ -59,4 +60,31 @@ router.post("/login", async (req, res) => {
   }
 });
 
+
+router.post("/order", async (req, res) => {
+  try {
+    const orderData = req.body; 
+    const newOrder = new Order(orderData);
+    await newOrder.save();
+
+    res.status(201).json({ message: 'Order placed successfully', order: newOrder });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: 'Internal server error' });
+  }
+});
+
+router.post("/contactus", async (req, res) => {
+  try {
+    const formData = req.body; 
+
+    const newContactForm = new ContactForm(formData);
+    await newContactForm.save();
+
+    res.status(201).json({ message: 'Contact form submitted successfully', formData: newContactForm });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: 'Internal server error' });
+  }
+});
 module.exports = router;

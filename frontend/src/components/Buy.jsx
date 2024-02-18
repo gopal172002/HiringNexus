@@ -3,13 +3,23 @@ import { useDispatch, useSelector } from "react-redux";
 import { addToCart } from "../redux/actions/cart";
 import axios from "axios";
 import styles from "../styles/styles";
+import { server } from "../server";
+// import { useLocation } from 'react-router-dom';
 
 const BuyNowPage = () => {
+  const storedCart = JSON.parse(localStorage.getItem('cart'));
+  const cart = storedCart.map(item => ({
+    name: item.name,
+    quantity: item.qty,
+    totalPrice: item.discount_price * item.qty,
+  }));
+  console.log("cartttttttttttt",cart);
+// console.log("ttttttttttttttt",storedCart);
   const dispatch = useDispatch();
   const selectedProduct = useSelector((state) => state.selectedProduct);
   const user = useSelector((state) => state.user);
-console.log(user);
-  const [quantity, setQuantity] = useState(1);
+// console.log(user);
+  const [quantity] = useState(1);
   const [shippingDetails, setShippingDetails] = useState({
     fullName: "",
     mobileNumber: "",
@@ -48,12 +58,12 @@ console.log(user);
         pinCode: shippingDetails.pinCode,
         acceptTerms: shippingDetails.acceptTerms,
       },
-      cartItems: user?.cart || [],
+       cart : cart || [],
     };
 
     try {
       // Send orderData to the backend using Axios
-      const response = await axios.post("your_backend_api_endpoint", orderData);
+      const response = await axios.post(`${server}/order`, orderData);
 
       // Handle successful response
       console.log("Order submitted successfully:", response.data);

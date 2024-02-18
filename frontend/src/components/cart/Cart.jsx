@@ -10,6 +10,8 @@ import { toast } from "react-toastify";
 
 const Cart = ({ setOpenCart }) => {
     const { cart } = useSelector((state) => state.cart);
+    console.log(cart);
+    localStorage.setItem('cart', JSON.stringify(cart));
     const dispatch = useDispatch();
 
     const removeFromCartHandler = (data) => {
@@ -26,6 +28,7 @@ const Cart = ({ setOpenCart }) => {
     };
 
     return (
+        
         <div className="fixed top-0 left-0 w-full bg-[#0000004b] h-screen z-10">
             <div className="fixed top-0 right-0 h-full w-[80%] 800px:w-[25%] bg-white flex flex-col overflow-y-scroll justify-between shadow-sm">
                 {cart && cart.length === 0 ? (
@@ -75,18 +78,12 @@ const Cart = ({ setOpenCart }) => {
                         <div className="px-5 mb-3">
                             {/* checkout buttons */}
                             <Link to="/buynow">
-                                <div
-                                    className={`h-[45px] flex items-center justify-center w-[100%] bg-[#e44343] rounded-[5px]`}
-                                >
-                                    <h1 className="text-[#fff] text-[18px] font-[600]">
-
-                                        Buy Now (INR₹{totalPrice})
-
-                                       
-
-                                    </h1>
-                                </div>
-                            </Link>
+  <div className={`h-[45px] flex items-center justify-center w-[100%] bg-[#e44343] rounded-[5px]`}>
+    <h1 className="text-[#fff] text-[18px] font-[600]">
+      Buy Now (INR₹{totalPrice})
+    </h1>
+  </div>
+</Link>
                         </div>
                     </>
                 )}
@@ -116,6 +113,7 @@ const CartSingle = ({ data, quantityChangeHandler, removeFromCartHandler }) => {
     };
 
     return (
+        
         <div className="border-b p-4">
             <div className="w-full flex items-center">
                 <div>
