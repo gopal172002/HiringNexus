@@ -195,7 +195,7 @@ export const navItems = [
       subTitle: "",
       image_Url:
         // "https://cdn.shopify.com/s/files/1/1706/9177/products/NEWAppleMacbookProwithM1ProChip14InchLaptop2021ModelMKGQ3LL_A_16GB_1TBSSD_custommacbd.jpg?v=1659592838",
-    "../images/Turmeric.jpg"
+    "../../images/Turmeric.jpg"
       },
     {
       id: 2,
@@ -260,7 +260,6 @@ export const navItems = [
         "https://searchspring.com/wp-content/uploads/2022/10/Hero-Image-Platform-Others-2.png",
     },
   ];
-  
   // product Data
   export const productData = [
     {
@@ -272,18 +271,18 @@ export const navItems = [
       image_Url: [
         {
           public_id: "test",
-          url: "..\.\images\Turmeric.jpg",
+          url: "../images/farmer.jpg",
         },
         {
           public_id: "test",
-          url: "https://www.istorebangladesh.com/images/thumbs/0000286_macbook-pro-m1_550.png",
+          url: "../images/farmer.jpg",
         },
       ],
       shop: {
         name: "Apple inc.",
         shop_avatar: {
           public_id: "test",
-          url: "https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png",
+          url: "../images/farmer.jpg",
         },
         ratings: 4.2,
       },

@@ -17,7 +17,7 @@ const Cart = ({ setOpenCart }) => {
     };
 
     const totalPrice = cart.reduce(
-        (acc, item) => acc + item.qty * item.discountPrice,
+        (acc, item) => acc + item.qty * item.discount_price,
         0
     );
 
@@ -79,7 +79,11 @@ const Cart = ({ setOpenCart }) => {
                                     className={`h-[45px] flex items-center justify-center w-[100%] bg-[#e44343] rounded-[5px]`}
                                 >
                                     <h1 className="text-[#fff] text-[18px] font-[600]">
+<<<<<<< HEAD
+                                        Buy Now (USD${totalPrice})
+=======
                                         Buy Now (Rs{totalPrice})
+>>>>>>> c0147413e6b58554b397faa2e00f4321a1d18cab
                                     </h1>
                                 </div>
                             </Link>
@@ -93,7 +97,7 @@ const Cart = ({ setOpenCart }) => {
 
 const CartSingle = ({ data, quantityChangeHandler, removeFromCartHandler }) => {
     const [value, setValue] = useState(data.qty);
-    const totalPrice = data.discountPrice * value;
+    const totalPrice = data.discount_price * value;
 
     const increment = (data) => {
         if (data.stock < value) {
