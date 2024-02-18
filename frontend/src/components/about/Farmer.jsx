@@ -1,7 +1,11 @@
-// AboutPage.js
-
 import React from 'react';
+<<<<<<< HEAD
 import farmerImage from '../../images/farmer.jpg'; 
+=======
+
+import farmerImage from '../../images/farmer.jpg'; // Assuming 'farmer.jpg' is in the same directory as this component
+>>>>>>> c0147413e6b58554b397faa2e00f4321a1d18cab
+
 
 function About() {
   return (
