@@ -6,6 +6,7 @@ import ProductsPage from "../src/pages/ProductsPage.jsx"
 import ContactPage from "../src/pages/ContactPage.jsx"
 import AboutPage from "../src/pages/AboutPage.jsx"
 import BuyPage from "../src/pages/BuyPage.jsx"
+import Gallery from "../src/pages/galleryPage.jsx"
 export{
     HomePage,
     LoginPage,
@@ -15,4 +16,5 @@ export{
     ContactPage,
     AboutPage,
     BuyPage,
+    Gallery,
 }

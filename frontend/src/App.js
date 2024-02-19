@@ -1,6 +1,6 @@
 import React from 'react';
 import {BrowserRouter,Routes,Route} from "react-router-dom";
-import {LoginPage,SignupPage,HomePage,FAQpage,ProductsPage,ContactPage,AboutPage,BuyPage} from "./Routes.js"
+import {LoginPage,SignupPage,HomePage,FAQpage,ProductsPage,ContactPage,AboutPage,BuyPage, Gallery} from "./Routes.js"
 
 import './App.css';
 const App = () => {
@@ -15,6 +15,7 @@ const App = () => {
     <Route path="/contactus" element={<ContactPage/>}/> 
      <Route path="/aboutus" element={<AboutPage/>}/>
      <Route path="/buynow" element={<BuyPage/>}/>
+     <Route path="/gallery" element={< Gallery/>}/>
     </Routes>
     </BrowserRouter>
   );

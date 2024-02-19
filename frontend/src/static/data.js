@@ -80,6 +80,10 @@ export const navItems = [
       title: "About Us",
       url: "/aboutus",
     },
+    {
+      title: "Gallery",
+      url: "/gallery",
+    },
   ];
   
   export const productData = [
