@@ -8,7 +8,7 @@ const app = express();
 const port = process.env.PORT || 5001;
 
 const corsOptions = {
-    origin: 'http://localhost:3000',  // Replace with the origin of your frontend application
+    origin: 'https://tathagat-a-farmer-ql77.vercel.app/',  // Replace with the origin of your frontend application
     credentials: true,                 // Enable credentials (e.g., cookies, authorization headers)
   };
   
