@@ -13,7 +13,7 @@ const BuyNowPage = () => {
     quantity: item.qty,
     totalPrice: item.discount_price * item.qty,
   }));
-  console.log("cartttttttttttt",cart);
+  // console.log("cartttttttttttt",cart);
 // console.log("ttttttttttttttt",storedCart);
   const dispatch = useDispatch();
   const selectedProduct = useSelector((state) => state.selectedProduct);

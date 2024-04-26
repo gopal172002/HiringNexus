@@ -9,9 +9,9 @@ const    ContactForm =require('../models/contact');
 router.post("/register", async (req, res) => {
     try {
         const { name, email, password } = req.body;
- console.log(name);
- console.log(email);
- console.log(password);
+//  console.log(name);
+//  console.log(email);
+//  console.log(password);
         if (!email || !name || !password) {
             return res.status(400).json({ error: "Please provide all required information" });
         }
