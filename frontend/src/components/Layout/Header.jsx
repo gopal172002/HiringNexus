@@ -200,7 +200,10 @@ const Header = ({ activeHeading }) => {
                             onClick={() => setOpen(true)}
                         />
                     </div>
- <div className="w-full h-full flex justify-center" style={{ marginLeft: '-100px' }}>
+ <div className="w-full h-full flex justify-center">
+ {/* <div style={{ marginLeft: '-10px' }> */}
+<div className= "left" style={{ marginLeft: '-50px'} }>
+
   <Link to="/">
     <img
       src={LogoImage}
@@ -208,6 +211,8 @@ const Header = ({ activeHeading }) => {
       className="w-24 h-[60px] md:ml-4 lg:ml-6 xl:ml-8" // Responsive margin-left classes
     />
   </Link>
+
+</div>
 </div>
 
 
