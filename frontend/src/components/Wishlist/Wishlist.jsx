@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { RxCross1 } from "react-icons/rx";
 import { BsCartPlus } from "react-icons/bs";
 import styles from "../../styles/styles";
+import { Link } from "react-router-dom";
 import { AiOutlineHeart } from "react-icons/ai";
 import { useDispatch, useSelector } from "react-redux";
 import { removeFromWishlist } from "../../redux/actions/wishlist";
@@ -33,7 +34,7 @@ const Wishlist = ({ setOpenWishlist }) => {
                                 onClick={() => setOpenWishlist(false)}
                             />
                         </div>
-                        <h5>Wishlist Items is empty!</h5>
+                        <h5>Wishlist Job is empty!</h5>
                     </div>
                 ) : (
                     <>
@@ -49,7 +50,7 @@ const Wishlist = ({ setOpenWishlist }) => {
                             <div className={`${styles.noramlFlex} p-4`}>
                                 <AiOutlineHeart size={25} />
                                 <h5 className="pl-2 text-[20px] font-[500]">
-                                    {wishlist && wishlist.length} items
+                                    {wishlist && wishlist.length} Jobs
                                 </h5>
                             </div>
 
@@ -87,15 +88,19 @@ const CartSingle = ({ data,removeFromWishlistHandler,addToCartHandler }) => {
 
                 <div className="pl-[5px]">
                     <h1>{data.name}</h1>
-                    <h4 className="font-[600] pt-3 800px:pt-[3px] text-[17px] text-[#d02222] font-Roboto">
+                    {/* <h4 className="font-[600] pt-3 800px:pt-[3px] text-[17px] text-[#d02222] font-Roboto">
                         Rs ₹{totalPrice}
-                    </h4>
+                    </h4> */}
+
+                    <Link to={data.jobUrl} className="inline-block mt-4 px-4 py-2 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
+        Apply Now
+      </Link>
                 </div>
-                <div>
+                {/* <div>
                     <BsCartPlus size={20} className="cursor-pointer" tile="Add to cart"
                                 onClick={() => addToCartHandler(data)}
                     />
-                </div>
+                </div> */}
             </div>
         </div>
     );

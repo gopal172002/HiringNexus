@@ -19,14 +19,14 @@ const Footer = () => {
                 <ul className="px-5 text-center sm:text-start flex sm:block flex-col items-center">
        
 <img
-    src={logoimage}
+    // src={logoimage}
     alt="logo"
     class="w-40 h-30"
 />
 
 
                     <br />
-                    <p>Chemical free grocery products.</p>
+                    <p>JobFinder is one stop solution for engineers ! A platform to learn in community,job openings, explore campuses & get placed in dream companies.</p>
                     <div className="flex items-center mt-[15px]">
     <a href="https://www.facebook.com/share/VLZ1xx8Hw2JFD4tw/?mibextid=qi2Omg" target="_blank" rel="noopener noreferrer">
         <AiFillFacebook size={25} className="cursor-pointer" />
@@ -69,7 +69,7 @@ const Footer = () => {
                 </ul>
 
                 <ul className="text-center sm:text-start">
-                    <h1 className="mb-1 font-semibold">Shop</h1>
+                    <h1 className="mb-1 font-semibold">Host</h1>
                     {footercompanyLinks.map((link,index) => (
                         <li key={index}>
                             <Link
@@ -103,14 +103,14 @@ const Footer = () => {
                 className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10
          text-center pt-2 text-gray-400 text-sm pb-8"
             >
-                <span>© since 2020</span>
+                <span>© since 2024</span>
                 <span>Terms · Privacy Policy</span>
-                <div className="sm:block flex items-center justify-center w-full">
+                {/* <div className="sm:block flex items-center justify-center w-full">
                     <img
                         src="https://hamart-shop.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooter-payment.a37c49ac.png&w=640&q=75"
                         alt=""
                     />
-                </div>
+                </div> */}
             </div>
         </div>
     );

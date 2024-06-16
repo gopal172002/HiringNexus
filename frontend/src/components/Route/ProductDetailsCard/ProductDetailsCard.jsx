@@ -36,20 +36,20 @@ const ProductDetailsCard = ({ setOpen, data }) => {
         setCount(count + 1);
     };
 
-    const addToCartHandler = (id) => {
-        const isItemExists = cart && cart.find((i) => i.id === id);
-        if (isItemExists) {
-            toast.error("Item already in cart!");
-        } else {
-            if (data.stock < count) {
-                toast.error("Product stock limited!");
-            } else {
-                const cartData = { ...data, qty: count };
-                dispatch(addToCart(cartData));
-                toast.success("Item added to cart successfully!");
-            }
-        }
-    };
+    // const addToCartHandler = (id) => {
+    //     const isItemExists = cart && cart.find((i) => i.id === id);
+    //     if (isItemExists) {
+    //         toast.error("Item already in cart!");
+    //     } else {
+    //         if (data.stock < count) {
+    //             toast.error("Product stock limited!");
+    //         } else {
+    //             const cartData = { ...data, qty: count };
+    //             dispatch(addToCart(cartData));
+    //             toast.success("Item added to cart successfully!");
+    //         }
+    //     }
+    // };
 
     useEffect(() => {
         if (wishlist && wishlist.find((i) => i.id === data.id)) {
@@ -96,12 +96,12 @@ const ProductDetailsCard = ({ setOpen, data }) => {
                                             <h3 className={`${styles.shop_name}`}>
                                                 {data.shop.name}
                                             </h3>
-                                            <h5 className="pb-3 text-15">{data?.ratings} Ratings</h5>
+                                            {/* <h5 className="pb-3 text-15">{data?.ratings} Ratings</h5> */}
 
                                         </div>
                                     
                                 </div>
-                                <h5 className="text-[16px] text-[red] mt-5">(50) Sold out</h5>
+                                {/* <h5 className="text-[16px] text-[red] mt-5">(50) Sold out</h5> */}
                             </div>
 
                             <div className="w-full 800px:w-[50%] pt-5 pl-[5px] pr-[5px]">
@@ -109,17 +109,17 @@ const ProductDetailsCard = ({ setOpen, data }) => {
                                     {data.name}
                                 </h1>
                                 <p>{data.description}</p>
-
-                                <div className="flex pt-3">
+                                 
+                                {/* <div className="flex pt-3">
                                     <h4 className={`${styles.productDiscountPrice}`}>
                                         {data.discount_price}₹
                                     </h4>
                                     <h3 className={`${styles.price}`}>
                                         {data.price ? data.price + "₹" : null}
                                     </h3>
-                                </div>
+                                </div> */}
                                 <div className="flex items-center mt-12 justify-between pr-3">
-                                    <div>
+                                    {/* <div>
                                         <button
                                             className="bg-gradient-to-r from-teal-400 to-teal-500 text-white font-bold rounded-l px-4 py-2 shadow-lg hover:opacity-75 transition duration-300 ease-in-out"
                                             onClick={decrementCount}
@@ -135,7 +135,7 @@ const ProductDetailsCard = ({ setOpen, data }) => {
                                         >
                                             +
                                         </button>
-                                    </div>
+                                    </div> */}
                                     <div>
                                         {click ? (
                                             <AiFillHeart
@@ -154,15 +154,18 @@ const ProductDetailsCard = ({ setOpen, data }) => {
                                             />
                                         )}
                                     </div>
+                                    <Link to={data.jobUrl} className="inline-block mt-4 px-4 py-2 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
+        Apply Now
+      </Link>
                                 </div>
-                                <div
+                                {/* <div
                                     className={`${styles.button} mt-6 rounded-[4px] h-11 flex items-center`}
                                     onClick={() => addToCartHandler(data.id)}
                                 >
                   <span className="text-[#fff] flex items-center">
                     Add to cart <AiOutlineShoppingCart className="ml-1" />
                   </span>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

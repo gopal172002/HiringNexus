@@ -1,6 +1,7 @@
 // navigation Data
 // import ImageDaal from '../images/daal1.jpg'
 // import AmaranthRajgira from '../images/AmaranthRajgira.png'
+import job1 from '../images/jobbbb.png'
 import CorianderWhole from '../images/CorianderWhole.png'
 import AmaranthRajgiraPack from '../images/AmaranthRajgiraPack.png.jpg'
 // import Awal2 from '../images/awal2.jpg'
@@ -65,7 +66,7 @@ export const navItems = [
       url: "/",
     },
     {
-      title: "Products",
+      title: "Openings",
       url: "/products",
     },
     {
@@ -80,31 +81,28 @@ export const navItems = [
       title: "About Us",
       url: "/aboutus",
     },
-    {
-      title: "Gallery",
-      url: "/gallery",
-    },
   ];
   
   export const productData = [
     {
       id: 1,
-      name: "CorianderWhole",
+      name: "QA Engineer I",
+      jobUrl:"https://chatgpt.com/",
       description:
         "Product details",
       image_Url: [
         {
           public_id: "test",
-          url: `${CorianderWhole}`,
+          url: `${job1}`,
         },
         {
           public_id: "test",
-          url: `${CorianderWhole}`,
+          url: `${job1}`,
         },
       ],
       shop: {
-        name: "TathagatAFarmer",
-        url: `${LogoFarmer}`,
+        name: "HealthEdge",
+        url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGWGSauJzVITHjoG_J-mAVitGaoJ3LbR3MjQ&s",
         ratings: 4.2,
       },
       price: 120,
@@ -115,17 +113,18 @@ export const navItems = [
     },
     {
       id: 2,
-      name: "AmaranthRajgiraPack",
+      name: "QA Engineer I",
+      jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
         {
           public_id: "test",
-          url: `${AmaranthRajgiraPack}`,
+          url: `${job1}`,
         },
         {
           public_id: "test",
-          url: `${AmaranthRajgiraPack}`,
+          url: `${job1}`,
         },
       ],
       shop: {
@@ -141,17 +140,18 @@ export const navItems = [
     },
     {
       id: 3,
-      name: "AwlaCandies",
+      name: "QA Engineer I",
+      jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
         {
           public_id: "test",
-          url: `${AwlaCandies}`,
+          url: `${job1}`,
         },
         {
           public_id: "test",
-          url: `${AwlaCandies}`,
+          url: `${job1}`,
         },
       ],
       shop: {
@@ -167,17 +167,18 @@ export const navItems = [
     },
     {
       id: 4,
-      name: "BlackGramSplit",
+      name: "QA Engineer I",
+      jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
         {
           public_id: "test",
-          url: `${BlackGramSplit}`,
+          url: `${job1}`,
         },
         {
           public_id: "test",
-          url: `${BlackGramSplit}`,
+          url: `${job1}`,
         },
       ],
       shop: {
@@ -194,6 +195,7 @@ export const navItems = [
     {
       id: 5,
       name: " ChickpeaFlour",
+      jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
@@ -220,6 +222,7 @@ export const navItems = [
     {
       id: 6,
       name: "ChickpeaSplit",
+      jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
@@ -246,6 +249,7 @@ export const navItems = [
     {
       id: 7,
       name: "Chickpea",
+      jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
@@ -272,6 +276,7 @@ export const navItems = [
     {
       id: 8,
       name: "CorianderPowder",
+      jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
@@ -298,6 +303,7 @@ export const navItems = [
     {
       id: 9,
       name: "FenugreekSeed",
+      jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
@@ -324,6 +330,7 @@ export const navItems = [
     {
       id: 10,
       name: "Flaxseed",
+      jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
@@ -350,6 +357,7 @@ export const navItems = [
     {
       id: 11,
       name: "GiloyPowder",
+      jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
@@ -376,6 +384,7 @@ export const navItems = [
     {
       id: 12,
       name: "GingerPowder",
+      jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
@@ -402,6 +411,7 @@ export const navItems = [
     {
       id: 13,
       name: "GoosberryCandy",
+      jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
@@ -428,6 +438,7 @@ export const navItems = [
     {
       id: 14,
       name: "GoosberryPowder",
+      jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
@@ -454,6 +465,7 @@ export const navItems = [
     {
       id: 15,
       name: "GramFlour",
+      jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
@@ -480,6 +492,7 @@ export const navItems = [
     {
       id: 16,
       name: "GroundnutOil",
+      jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
@@ -506,6 +519,7 @@ export const navItems = [
     {
       id: 17,
       name: "Groundnuts",
+      jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
@@ -532,6 +546,7 @@ export const navItems = [
     {
       id: 18,
       name: "AmaranthRajgiraPack",
+      jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
@@ -558,6 +573,7 @@ export const navItems = [
     {
       id: 19,
       name: "HennaPowder",
+      jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
@@ -584,6 +600,7 @@ export const navItems = [
     {
       id: 20,
       name: "Hibiscus",
+      jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
@@ -610,6 +627,7 @@ export const navItems = [
     {
       id: 21,
       name: "KabuliChana",
+      jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
@@ -636,6 +654,7 @@ export const navItems = [
     {
       id: 22,
       name: "MoringaLeafPowder",
+      jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
@@ -662,6 +681,7 @@ export const navItems = [
     {
       id: 23,
       name: "MustardSmall",
+      jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
@@ -688,6 +708,7 @@ export const navItems = [
     {
       id: 24,
       name: "MustardSmallRaiPack",
+      jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
@@ -702,6 +723,7 @@ export const navItems = [
       ],
       shop: {
         name: "TathagatAFarmer",
+        jobUrl:"https://chatgpt.com/",
         url: `${LogoFarmer}`,
         ratings: 4.2,
       },
@@ -714,6 +736,7 @@ export const navItems = [
     {
       id: 25,
       name: "Nutripowder",
+      jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
@@ -728,6 +751,7 @@ export const navItems = [
       ],
       shop: {
         name: "TathagatAFarmer",
+        jobUrl:"https://chatgpt.com/",
         url: `${LogoFarmer}`,
         ratings: 4.2,
       },
@@ -740,6 +764,7 @@ export const navItems = [
     {
       id: 26,
       name: "NutriPwderPack",
+      jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
@@ -754,6 +779,7 @@ export const navItems = [
       ],
       shop: {
         name: "TathagatAFarmer",
+        jobUrl:"https://chatgpt.com/",
         url: `${LogoFarmer}`,
         ratings: 4.2,
       },
@@ -766,6 +792,7 @@ export const navItems = [
     {
       id: 27,
       name: "TurmericHighCurcumin",
+      jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
@@ -792,6 +819,7 @@ export const navItems = [
     {
       id: 28,
       name: "SesamOil",
+      jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
@@ -806,6 +834,7 @@ export const navItems = [
       ],
       shop: {
         name: "TathagatAFarmer",
+        jobUrl:"https://chatgpt.com/",
         url: `${LogoFarmer}`,
         ratings: 4.2,
       },
@@ -818,6 +847,7 @@ export const navItems = [
     {
       id: 29,
       name: "RoselleFlower",
+      jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
@@ -844,6 +874,7 @@ export const navItems = [
     {
       id: 30,
       name: "RoselleCandy",
+      jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
@@ -870,6 +901,7 @@ export const navItems = [
     {
       id: 31,
       name: "RoastedFlaxSeed ",
+      jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
@@ -896,6 +928,7 @@ export const navItems = [
     {
       id: 32,
       name: "PigeonpeasSplit",
+      jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
@@ -932,10 +965,10 @@ export const navItems = [
       link: "/carrers"
     },
     {
-      name: "Store Locations",
+      name: "Trending",
     },
     {
-      name: "Our Blog",
+      name: "Blog",
     },
     {
       name: "Reviews",
@@ -944,25 +977,25 @@ export const navItems = [
   
   export const footercompanyLinks = [
     {
-      name: "Turmeric Powder",
+      name: "Internship",
     },
     {
-      name: "Coriander Whole",
+      name: "Freshers",
     },
     {
-      name: "Roselle Candy",
+      name: "Projects",
     },
     {
-      name: "Heena Powder",
+      name: "Hackathons",
     },
     {
-      name: "Fenugreek",
+      name: "Webinar",
     },
   ];
   
   export const footerSupportLinks = [
     {
-      name: "FAQ",
+      name: "Events",
     },
     {
       name: "Reviews",
@@ -971,7 +1004,7 @@ export const navItems = [
       name: "Contact Us",
     },
     {
-      name: "Shipping",
+      name: "Workshop",
     },
     {
       name: "About Us",

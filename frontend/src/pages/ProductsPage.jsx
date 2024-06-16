@@ -146,7 +146,7 @@ const ProductsPage = () => {    const [searchParams] = useSearchParams();
                 </div>
                 {filteredData.length === 0 && (
                     <h1 className="text-center w-full pb-[100px] text-[20px]">
-                        No products Found!
+                        No Job Found!
                     </h1>
                 )}
             </div>

@@ -57,7 +57,7 @@ const Header = ({ activeHeading }) => {
                 <div className="w-full h-full flex items-center justify-start">
     <Link to="/">
         <img
-            src={LogoImage}
+            // src={LogoImage}
             alt="logo"
             className="w-24 h-auto " // Add responsive margin-left classes
         />
@@ -71,10 +71,10 @@ const Header = ({ activeHeading }) => {
                     <div className="w-[50%] relative">
                         <input
                             type="text"
-                            placeholder="Search Product..."
+                            placeholder="Search Jobs..."
                             value={searchTerm}
                             onChange={handleSearchChange}
-                            className="h-[40px] w-full px-2 border-[#2aaa2a] border-[2px] rounded-md"
+                            className="h-[40px] w-full px-2 border-[#412e93] border-[2px] rounded-md"
                         />
                         <AiOutlineSearch
                             size={30}
@@ -104,7 +104,7 @@ const Header = ({ activeHeading }) => {
                     <div className={`${styles.button}`} >
                        <Link to={"/products"}>
                        <h1 className="text-[#fff] flex items-center justify-center ">
-                              Shop Now
+                              Explore Jobs
                                    </h1>
 
 
@@ -116,7 +116,7 @@ const Header = ({ activeHeading }) => {
             <div
                 className={`${
                     active === true ? "shadow-sm fixed top-0 left-0 z-10" : null
-                } transition hidden 800px:flex items-center justify-between w-full bg-[#4db64f] h-[70px]`}
+                } transition hidden 800px:flex items-center justify-between w-full bg-[#412e93] h-[70px]`}
             >
                 <div
                     className={`${styles.section} relative ${styles.noramlFlex} justify-between`}
@@ -135,13 +135,13 @@ const Header = ({ activeHeading }) => {
                                 onClick={() => setOpenWishlist(true)}
                             >
                                 <AiOutlineHeart size={30} color="rgb(255 255 255 / 83%)" />
-                                <span className="absolute right-0 top-0 rounded-full bg-[#3bc177] w-4 h-4 top right p-0 m-0 text-white font-mono text-[12px] leading-tight text-center">
+                                <span className="absolute right-0 top-0 rounded-full bg-[#412e93] w-4 h-4 top right p-0 m-0 text-white font-mono text-[12px] leading-tight text-center">
                   {wishlist && wishlist.length}
                 </span>
                             </div>
                         </div>
 
-                        <div className={`${styles.noramlFlex}`}>
+                        {/* <div className={`${styles.noramlFlex}`}>
                             <div
                                 className="relative cursor-pointer mr-[15px]"
                                 onClick={() => setOpenCart(true)}
@@ -154,7 +154,7 @@ const Header = ({ activeHeading }) => {
                   {cart && cart.length}
                 </span>
                             </div>
-                        </div>
+                        </div> */}
 
                         <div className={`${styles.noramlFlex}`}>
                             <div className="relative cursor-pointer mr-[15px]">
@@ -209,7 +209,7 @@ const Header = ({ activeHeading }) => {
         />
     </Link>
 </div>
-                    <div>
+                    {/* <div>
                         <div
                             className="relative mr-[20px]"
                             onClick={() => setOpenCart(true)}
@@ -219,9 +219,9 @@ const Header = ({ activeHeading }) => {
                 {cart && cart.length}
               </span>
                         </div>
-                    </div>
+                    </div> */}
                     {/* cart popup */}
-                    {openCart ? <Cart setOpenCart={setOpenCart} /> : null}
+                    {/* {openCart ? <Cart setOpenCart={setOpenCart} /> : null} */}
 
                     {/* wishlist popup */}
                     {openWishlist ? <Wishlist setOpenWishlist={setOpenWishlist} /> : null}
@@ -255,7 +255,7 @@ const Header = ({ activeHeading }) => {
                             <div className="my-8 w-[92%] m-auto h-[40px relative]">
                                 <input
                                     type="search"
-                                    placeholder="Search Product..."
+                                    placeholder="Search Jobs..."
                                     className="h-[40px] w-full px-2 border-[#3957db] border-[2px] rounded-md"
                                     value={searchTerm}
                                     onChange={handleSearchChange}
@@ -290,7 +290,7 @@ const Header = ({ activeHeading }) => {
 
                              <IoIosArrowForward className="ml-1" />
 
-                                       Shop Now
+                                       Explore Jobs
 
                                    </h1>
                                </Link>
@@ -306,7 +306,7 @@ const Header = ({ activeHeading }) => {
                                             <img
                                                 src={`${user.avatar?.url}`}
                                                 alt=""
-                                                className="w-[60px] h-[60px] rounded-full border-[3px] border-[#0eae88]"
+                                                className="w-[60px] h-[60px] rounded-full border-[3px] border-[#412e93]"
                                             />
                                         </Link>
                                     </div>

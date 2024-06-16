@@ -15,16 +15,16 @@ const Hero = () => {
                 <h1
                     className={`text-[35px] leading-[1.2] 800px:text-[60px] text-[#3d3a3a] font-[600] capitalize`}
                 >
-                    Best Organic Food Products<br /> Tathagat: A Farmer
+                    One Step Closer To Your Dream<br /> JobFinder
                 </h1>
                 <p className="pt-5 text-[16px] font-[Poppins] font-[400] text-[#000000ba]">
-                    Tathagat is a farmer who does chemical free farming<br /> He belives in philosophy on "Happy Farming"{" "}
+                Our technical areas specialize students in what industry is looking for in candidates,<br />  rather than spending ample time in building general skills.{" "}
                     <br />
                 </p>
                 <Link to="/products" className="inline-block">
                     <div className={`${styles.button} mt-5`}>
             <span className="text-white font-Poppins text-25 flex items-center justify-center h-full">
-   Shop Now
+   Explore Jobs
 </span>
 
 
