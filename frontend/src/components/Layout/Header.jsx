@@ -102,7 +102,7 @@ const Header = ({ activeHeading }) => {
                     </div>
                   
                     <div className={`${styles.button}`} >
-                       <Link to={"/products"}>
+                       <Link to={"/openings"}>
                        <h1 className="text-[#fff] flex items-center justify-center ">
                               Explore Jobs
                                    </h1>
@@ -200,15 +200,17 @@ const Header = ({ activeHeading }) => {
                             onClick={() => setOpen(true)}
                         />
                     </div>
-<div className="w-full h-full flex items-center justify-center">
-    <Link to="/">
-        <img
-            src={LogoImage}
-            alt="logo"
-            className="w-24 h-[60px] " // Add responsive margin-left classes
-        />
-    </Link>
+ <div className="w-full h-full flex justify-center" style={{ marginLeft: '-100px' }}>
+  <Link to="/">
+    <img
+      src={LogoImage}
+      alt="logo"
+      className="w-24 h-[60px] md:ml-4 lg:ml-6 xl:ml-8" // Responsive margin-left classes
+    />
+  </Link>
 </div>
+
+
                     {/* <div>
                         <div
                             className="relative mr-[20px]"
@@ -240,7 +242,7 @@ const Header = ({ activeHeading }) => {
                                         onClick={() => setOpenWishlist(true) || setOpen(false)}
                                     >
                                         <AiOutlineHeart size={30} className="mt-5 ml-3" />
-                                        <span class="absolute right-0 top-0 rounded-full bg-[#3bc177] w-4 h-4 top right p-0 m-0 text-white font-mono text-[12px]  leading-tight text-center">
+                                        <span class="absolute right-0 top-0 rounded-full bg-[#2b37a5] w-4 h-4 top right p-0 m-0 text-white font-mono text-[12px]  leading-tight text-center">
                       {wishlist && wishlist.length}
                     </span>
                                     </div>
@@ -285,7 +287,7 @@ const Header = ({ activeHeading }) => {
 
                             <Navbar active={activeHeading} />
                             <div className={`${styles.button} ml-4 !rounded-[4px]`}>
-                               <Link to="/products">
+                               <Link to="/openings">
                                    <h1 className="text-[#fff] flex items-center">
 
                              <IoIosArrowForward className="ml-1" />

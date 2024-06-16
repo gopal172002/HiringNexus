@@ -21,7 +21,7 @@ const Hero = () => {
                 Our technical areas specialize students in what industry is looking for in candidates,<br />  rather than spending ample time in building general skills.{" "}
                     <br />
                 </p>
-                <Link to="/products" className="inline-block">
+                <Link to="/openings" className="inline-block">
                     <div className={`${styles.button} mt-5`}>
             <span className="text-white font-Poppins text-25 flex items-center justify-center h-full">
    Explore Jobs
