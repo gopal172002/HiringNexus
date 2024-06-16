@@ -15,7 +15,7 @@ const Hero = () => {
                 <h1
                     className={`text-[35px] leading-[1.2] 800px:text-[60px] text-[#3d3a3a] font-[600] capitalize`}
                 >
-                    One Step Closer To Your Dream<br /> JobFinder
+                    One Step Closer To Your Dream<br /> HiringNexus
                 </h1>
                 <p className="pt-5 text-[16px] font-[Poppins] font-[400] text-[#000000ba]">
                 Our technical areas specialize students in what industry is looking for in candidates,<br />  rather than spending ample time in building general skills.{" "}

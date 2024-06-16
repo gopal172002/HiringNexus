@@ -24,23 +24,23 @@ const ContactForm = () => {
       const response = await axios.post(`${server}/contactus`, formData);
       console.log('Form submitted successfully:', response.data);
     } catch (error) {
-      // Handle errors
       console.error('Error submitting form:', error);
     }
   };
 
   return (
     <>
-      <h1 className="text-3xl font-bold text-center mt-8 mb-8">Contact Us</h1>
+      <h1 className="text-4xl font-bold text-center mt-12 mb-8 text-gray-900">
+        Contact Us
+      </h1>
 
-      <div className="flex items-center justify-center">
-        
+      <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-blue-50 to-purple-50">
         <form
           onSubmit={handleSubmit}
-          className="w-full sm:max-w-md bg-white rounded shadow p-8 mt-4"
+          className="w-full sm:max-w-md bg-white rounded-lg shadow-lg p-8 mt-4"
         >
-          <div className="mb-4">
-            <label htmlFor="name" className="block text-gray-700 font-bold mb-2">
+          <div className="mb-6">
+            <label htmlFor="name" className="block text-gray-700 font-semibold mb-2">
               Name
             </label>
             <input
@@ -49,12 +49,12 @@ const ContactForm = () => {
               name="name"
               value={formData.name}
               onChange={handleChange}
-              className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              className="appearance-none border border-gray-300 rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500"
               placeholder="Enter your name"
             />
           </div>
-          <div className="mb-4">
-            <label htmlFor="message" className="block text-gray-700 font-bold mb-2">
+          <div className="mb-6">
+            <label htmlFor="message" className="block text-gray-700 font-semibold mb-2">
               Message
             </label>
             <textarea
@@ -62,12 +62,12 @@ const ContactForm = () => {
               name="message"
               value={formData.message}
               onChange={handleChange}
-              className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline h-32 resize-none"
+              className="appearance-none border border-gray-300 rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 h-32 resize-none"
               placeholder="Enter your message"
             ></textarea>
           </div>
-          <div className="mb-4">
-            <label htmlFor="mobileNumber" className="block text-gray-700 font-bold mb-2">
+          <div className="mb-6">
+            <label htmlFor="mobileNumber" className="block text-gray-700 font-semibold mb-2">
               Mobile Number
             </label>
             <input
@@ -76,14 +76,14 @@ const ContactForm = () => {
               name="mobileNumber"
               value={formData.mobileNumber}
               onChange={handleChange}
-              className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              className="appearance-none border border-gray-300 rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500"
               placeholder="Enter your mobile number"
             />
           </div>
-          <div className="flex items-center justify-center sm:justify-end">
+          <div className="flex items-center justify-center">
             <button
               type="submit"
-              className="bg-blue-400 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+              className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-bold py-3 px-6 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition duration-300"
             >
               Submit
             </button>

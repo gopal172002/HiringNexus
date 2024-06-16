@@ -67,7 +67,7 @@ export const navItems = [
     },
     {
       title: "Openings",
-      url: "/products",
+      url: "/openings",
     },
     {
       title: "FAQ",
@@ -194,18 +194,18 @@ export const navItems = [
     },
     {
       id: 5,
-      name: " ChickpeaFlour",
+      name: "QA Engineer I",
       jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
         {
           public_id: "test",
-          url: `${ ChickpeaFlour}`,
+          url: `${job1}`,
         },
         {
           public_id: "test",
-          url: `${ ChickpeaFlour}`,
+          url: `${job1}`,
         },
       ],
       shop: {
@@ -221,18 +221,18 @@ export const navItems = [
     },
     {
       id: 6,
-      name: "ChickpeaSplit",
+      name: "QA Engineer I",
       jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
         {
           public_id: "test",
-          url: `${ChickpeaSplit}`,
+          url: `${job1}`,
         },
         {
           public_id: "test",
-          url: `${ChickpeaSplit}`,
+          url: `${job1}`,
         },
       ],
       shop: {
@@ -248,18 +248,18 @@ export const navItems = [
     },
     {
       id: 7,
-      name: "Chickpea",
+      name: "QA Engineer I",
       jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
         {
           public_id: "test",
-          url: `${Chickpea}`,
+          url: `${job1}`,
         },
         {
           public_id: "test",
-          url: `${Chickpea}`,
+          url: `${job1}`,
         },
       ],
       shop: {
@@ -275,18 +275,18 @@ export const navItems = [
     },
     {
       id: 8,
-      name: "CorianderPowder",
+      name: "QA Engineer I",
       jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
         {
           public_id: "test",
-          url: `${CorianderPowder}`,
+          url: `${job1}`,
         },
         {
           public_id: "test",
-          url: `${CorianderPowder}`,
+          url: `${job1}`,
         },
       ],
       shop: {
@@ -302,18 +302,18 @@ export const navItems = [
     },
     {
       id: 9,
-      name: "FenugreekSeed",
+      name: "QA Engineer I",
       jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
         {
           public_id: "test",
-          url: `${FenugreekSeed}`,
+          url: `${job1}`,
         },
         {
           public_id: "test",
-          url: `${FenugreekSeed}`,
+          url: `${job1}`,
         },
       ],
       shop: {
@@ -329,18 +329,18 @@ export const navItems = [
     },
     {
       id: 10,
-      name: "Flaxseed",
+      name: "QA Engineer I",
       jobUrl:"https://chatgpt.com/",
       description:
         "Product Detials Comming Soon.......",
       image_Url: [
         {
           public_id: "test",
-          url: `${Flaxseed}`,
+          url: `${job1}`,
         },
         {
           public_id: "test",
-          url: `${Flaxseed}`,
+          url: `${job1}`,
         },
       ],
       shop: {
@@ -354,604 +354,604 @@ export const navItems = [
       total_sell: 35,
       stock: 10,
     },
-    {
-      id: 11,
-      name: "GiloyPowder",
-      jobUrl:"https://chatgpt.com/",
-      description:
-        "Product Detials Comming Soon.......",
-      image_Url: [
-        {
-          public_id: "test",
-          url: `${GiloyPowder}`,
-        },
-        {
-          public_id: "test",
-          url: `${GiloyPowder}`,
-        },
-      ],
-      shop: {
-        name: "TathagatAFarmer",
-        url: `${LogoFarmer}`,
-        ratings: 4.2,
-      },
-      price: 120,
-      discount_price: 100,
-      rating: 4,
-      total_sell: 35,
-      stock: 10,
-    },
-    {
-      id: 12,
-      name: "GingerPowder",
-      jobUrl:"https://chatgpt.com/",
-      description:
-        "Product Detials Comming Soon.......",
-      image_Url: [
-        {
-          public_id: "test",
-          url: `${GingerPowder}`,
-        },
-        {
-          public_id: "test",
-          url: `${GingerPowder}`,
-        },
-      ],
-      shop: {
-        name: "TathagatAFarmer",
-        url: `${LogoFarmer}`,
-        ratings: 4.2,
-      },
-      price: 120,
-      discount_price: 100,
-      rating: 4,
-      total_sell: 35,
-      stock: 10,
-    },
-    {
-      id: 13,
-      name: "GoosberryCandy",
-      jobUrl:"https://chatgpt.com/",
-      description:
-        "Product Detials Comming Soon.......",
-      image_Url: [
-        {
-          public_id: "test",
-          url: `${GoosberryCandy}`,
-        },
-        {
-          public_id: "test",
-          url: `${GoosberryCandy}`,
-        },
-      ],
-      shop: {
-        name: "TathagatAFarmer",
-        url: `${LogoFarmer}`,
-        ratings: 4.2,
-      },
-      price: 120,
-      discount_price: 100,
-      rating: 4,
-      total_sell: 35,
-      stock: 10,
-    },
-    {
-      id: 14,
-      name: "GoosberryPowder",
-      jobUrl:"https://chatgpt.com/",
-      description:
-        "Product Detials Comming Soon.......",
-      image_Url: [
-        {
-          public_id: "test",
-          url: `${GoosberryPowder}`,
-        },
-        {
-          public_id: "test",
-          url: `${GoosberryPowder}`,
-        },
-      ],
-      shop: {
-        name: "TathagatAFarmer",
-        url: `${LogoFarmer}`,
-        ratings: 4.2,
-      },
-      price: 120,
-      discount_price: 100,
-      rating: 4,
-      total_sell: 35,
-      stock: 10,
-    },
-    {
-      id: 15,
-      name: "GramFlour",
-      jobUrl:"https://chatgpt.com/",
-      description:
-        "Product Detials Comming Soon.......",
-      image_Url: [
-        {
-          public_id: "test",
-          url: `${GramFlour}`,
-        },
-        {
-          public_id: "test",
-          url: `${GramFlour}`,
-        },
-      ],
-      shop: {
-        name: "TathagatAFarmer",
-        url: `${LogoFarmer}`,
-        ratings: 4.2,
-      },
-      price: 120,
-      discount_price: 100,
-      rating: 4,
-      total_sell: 35,
-      stock: 10,
-    },
-    {
-      id: 16,
-      name: "GroundnutOil",
-      jobUrl:"https://chatgpt.com/",
-      description:
-        "Product Detials Comming Soon.......",
-      image_Url: [
-        {
-          public_id: "test",
-          url: `${GroundnutOil}`,
-        },
-        {
-          public_id: "test",
-          url: `${GroundnutOil}`,
-        },
-      ],
-      shop: {
-        name: "TathagatAFarmer",
-        url: `${LogoFarmer}`,
-        ratings: 4.2,
-      },
-      price: 120,
-      discount_price: 100,
-      rating: 4,
-      total_sell: 35,
-      stock: 10,
-    },
-    {
-      id: 17,
-      name: "Groundnuts",
-      jobUrl:"https://chatgpt.com/",
-      description:
-        "Product Detials Comming Soon.......",
-      image_Url: [
-        {
-          public_id: "test",
-          url: `${Groundnuts}`,
-        },
-        {
-          public_id: "test",
-          url: `${Groundnuts}`,
-        },
-      ],
-      shop: {
-        name: "TathagatAFarmer",
-        url: `${LogoFarmer}`,
-        ratings: 4.2,
-      },
-      price: 120,
-      discount_price: 100,
-      rating: 4,
-      total_sell: 35,
-      stock: 10,
-    },
-    {
-      id: 18,
-      name: "AmaranthRajgiraPack",
-      jobUrl:"https://chatgpt.com/",
-      description:
-        "Product Detials Comming Soon.......",
-      image_Url: [
-        {
-          public_id: "test",
-          url: `${AmaranthRajgiraPack}`,
-        },
-        {
-          public_id: "test",
-          url: `${AmaranthRajgiraPack}`,
-        },
-      ],
-      shop: {
-        name: "TathagatAFarmer",
-        url: `${LogoFarmer}`,
-        ratings: 4.2,
-      },
-      price: 120,
-      discount_price: 100,
-      rating: 4,
-      total_sell: 35,
-      stock: 10,
-    },
-    {
-      id: 19,
-      name: "HennaPowder",
-      jobUrl:"https://chatgpt.com/",
-      description:
-        "Product Detials Comming Soon.......",
-      image_Url: [
-        {
-          public_id: "test",
-          url: `${HennaPowder}`,
-        },
-        {
-          public_id: "test",
-          url: `${HennaPowder}`,
-        },
-      ],
-      shop: {
-        name: "TathagatAFarmer",
-        url: `${LogoFarmer}`,
-        ratings: 4.2,
-      },
-      price: 120,
-      discount_price: 100,
-      rating: 4,
-      total_sell: 35,
-      stock: 10,
-    },
-    {
-      id: 20,
-      name: "Hibiscus",
-      jobUrl:"https://chatgpt.com/",
-      description:
-        "Product Detials Comming Soon.......",
-      image_Url: [
-        {
-          public_id: "test",
-          url: `${Hibiscus}`,
-        },
-        {
-          public_id: "test",
-          url: `${Hibiscus}`,
-        },
-      ],
-      shop: {
-        name: "TathagatAFarmer",
-        url: `${LogoFarmer}`,
-        ratings: 4.2,
-      },
-      price: 120,
-      discount_price: 100,
-      rating: 4,
-      total_sell: 35,
-      stock: 10,
-    },  
-    {
-      id: 21,
-      name: "KabuliChana",
-      jobUrl:"https://chatgpt.com/",
-      description:
-        "Product Detials Comming Soon.......",
-      image_Url: [
-        {
-          public_id: "test",
-          url: `${KabuliChana}`,
-        },
-        {
-          public_id: "test",
-          url: `${KabuliChana}`,
-        },
-      ],
-      shop: {
-        name: "TathagatAFarmer",
-        url: `${LogoFarmer}`,
-        ratings: 4.2,
-      },
-      price: 120,
-      discount_price: 100,
-      rating: 4,
-      total_sell: 35,
-      stock: 10,
-    },  
-    {
-      id: 22,
-      name: "MoringaLeafPowder",
-      jobUrl:"https://chatgpt.com/",
-      description:
-        "Product Detials Comming Soon.......",
-      image_Url: [
-        {
-          public_id: "test",
-          url: `${MoringaLeafPowder}`,
-        },
-        {
-          public_id: "test",
-          url: `${MoringaLeafPowder}`,
-        },
-      ],
-      shop: {
-        name: "TathagatAFarmer",
-        url: `${LogoFarmer}`,
-        ratings: 4.2,
-      },
-      price: 120,
-      discount_price: 100,
-      rating: 4,
-      total_sell: 35,
-      stock: 10,
-    },  
-    {
-      id: 23,
-      name: "MustardSmall",
-      jobUrl:"https://chatgpt.com/",
-      description:
-        "Product Detials Comming Soon.......",
-      image_Url: [
-        {
-          public_id: "test",
-          url: `${MustardSmall}`,
-        },
-        {
-          public_id: "test",
-          url: `${MustardSmall}`,
-        },
-      ],
-      shop: {
-        name: "TathagatAFarmer",
-        url: `${LogoFarmer}`,
-        ratings: 4.2,
-      },
-      price: 120,
-      discount_price: 100,
-      rating: 4,
-      total_sell: 35,
-      stock: 10,
-    },  
-    {
-      id: 24,
-      name: "MustardSmallRaiPack",
-      jobUrl:"https://chatgpt.com/",
-      description:
-        "Product Detials Comming Soon.......",
-      image_Url: [
-        {
-          public_id: "test",
-          url: `${MustardSmallRaiPack}`,
-        },
-        {
-          public_id: "test",
-          url: `${MustardSmallRaiPack}`,
-        },
-      ],
-      shop: {
-        name: "TathagatAFarmer",
-        jobUrl:"https://chatgpt.com/",
-        url: `${LogoFarmer}`,
-        ratings: 4.2,
-      },
-      price: 120,
-      discount_price: 100,
-      rating: 4,
-      total_sell: 35,
-      stock: 10,
-    },  
-    {
-      id: 25,
-      name: "Nutripowder",
-      jobUrl:"https://chatgpt.com/",
-      description:
-        "Product Detials Comming Soon.......",
-      image_Url: [
-        {
-          public_id: "test",
-          url: `${Nutripowder}`,
-        },
-        {
-          public_id: "test",
-          url: `${Nutripowder}`,
-        },
-      ],
-      shop: {
-        name: "TathagatAFarmer",
-        jobUrl:"https://chatgpt.com/",
-        url: `${LogoFarmer}`,
-        ratings: 4.2,
-      },
-      price: 120,
-      discount_price: 100,
-      rating: 4,
-      total_sell: 35,
-      stock: 10,
-    },  
-    {
-      id: 26,
-      name: "NutriPwderPack",
-      jobUrl:"https://chatgpt.com/",
-      description:
-        "Product Detials Comming Soon.......",
-      image_Url: [
-        {
-          public_id: "test",
-          url: `${NutriPwderPack}`,
-        },
-        {
-          public_id: "test",
-          url: `${NutriPwderPack}`,
-        },
-      ],
-      shop: {
-        name: "TathagatAFarmer",
-        jobUrl:"https://chatgpt.com/",
-        url: `${LogoFarmer}`,
-        ratings: 4.2,
-      },
-      price: 120,
-      discount_price: 100,
-      rating: 4,
-      total_sell: 35,
-      stock: 10,
-    },  
-    {
-      id: 27,
-      name: "TurmericHighCurcumin",
-      jobUrl:"https://chatgpt.com/",
-      description:
-        "Product Detials Comming Soon.......",
-      image_Url: [
-        {
-          public_id: "test",
-          url: `${TurmericHighCurcumin}`,
-        },
-        {
-          public_id: "test",
-          url: `${TurmericHighCurcumin}`,
-        },
-      ],
-      shop: {
-        name: "TathagatAFarmer",
-        url: `${LogoFarmer}`,
-        ratings: 4.2,
-      },
-      price: 120,
-      discount_price: 100,
-      rating: 4,
-      total_sell: 35,
-      stock: 10,
-    },  
-    {
-      id: 28,
-      name: "SesamOil",
-      jobUrl:"https://chatgpt.com/",
-      description:
-        "Product Detials Comming Soon.......",
-      image_Url: [
-        {
-          public_id: "test",
-          url: `${SesamOil}`,
-        },
-        {
-          public_id: "test",
-          url: `${SesamOil}`,
-        },
-      ],
-      shop: {
-        name: "TathagatAFarmer",
-        jobUrl:"https://chatgpt.com/",
-        url: `${LogoFarmer}`,
-        ratings: 4.2,
-      },
-      price: 120,
-      discount_price: 100,
-      rating: 4,
-      total_sell: 35,
-      stock: 10,
-    },  
-    {
-      id: 29,
-      name: "RoselleFlower",
-      jobUrl:"https://chatgpt.com/",
-      description:
-        "Product Detials Comming Soon.......",
-      image_Url: [
-        {
-          public_id: "test",
-          url: `${RoselleFlower}`,
-        },
-        {
-          public_id: "test",
-          url: `${RoselleFlower}`,
-        },
-      ],
-      shop: {
-        name: "TathagatAFarmer",
-        url: `${LogoFarmer}`,
-        ratings: 4.2,
-      },
-      price: 120,
-      discount_price: 100,
-      rating: 4,
-      total_sell: 35,
-      stock: 10,
-    },  
-    {
-      id: 30,
-      name: "RoselleCandy",
-      jobUrl:"https://chatgpt.com/",
-      description:
-        "Product Detials Comming Soon.......",
-      image_Url: [
-        {
-          public_id: "test",
-          url: `${RoselleCandy}`,
-        },
-        {
-          public_id: "test",
-          url: `${RoselleCandy}`,
-        },
-      ],
-      shop: {
-        name: "TathagatAFarmer",
-        url: `${LogoFarmer}`,
-        ratings: 4.2,
-      },
-      price: 120,
-      discount_price: 100,
-      rating: 4,
-      total_sell: 35,
-      stock: 10,
-    },  
-    {
-      id: 31,
-      name: "RoastedFlaxSeed ",
-      jobUrl:"https://chatgpt.com/",
-      description:
-        "Product Detials Comming Soon.......",
-      image_Url: [
-        {
-          public_id: "test",
-          url: `${RoastedFlaxSeed }`,
-        },
-        {
-          public_id: "test",
-          url: `${RoastedFlaxSeed }`,
-        },
-      ],
-      shop: {
-        name: "TathagatAFarmer",
-        url: `${LogoFarmer}`,
-        ratings: 4.2,
-      },
-      price: 120,
-      discount_price: 100,
-      rating: 4,
-      total_sell: 35,
-      stock: 10,
-    },  
-    {
-      id: 32,
-      name: "PigeonpeasSplit",
-      jobUrl:"https://chatgpt.com/",
-      description:
-        "Product Detials Comming Soon.......",
-      image_Url: [
-        {
-          public_id: "test",
-          url: `${PigeonpeasSplit}`,
-        },
-        {
-          public_id: "test",
-          url: `${PigeonpeasSplit}`,
-        },
-      ],
-      shop: {
-        name: "TathagatAFarmer",
-        url: `${LogoFarmer}`,
-        ratings: 4.2,
-      },
-      price: 120,
-      discount_price: 100,
-      rating: 4,
-      total_sell: 35,
-      stock: 10,
-    },  
+    // {
+    //   id: 11,
+    //   name: "GiloyPowder",
+    //   jobUrl:"https://chatgpt.com/",
+    //   description:
+    //     "Product Detials Comming Soon.......",
+    //   image_Url: [
+    //     {
+    //       public_id: "test",
+    //       url: `${GiloyPowder}`,
+    //     },
+    //     {
+    //       public_id: "test",
+    //       url: `${GiloyPowder}`,
+    //     },
+    //   ],
+    //   shop: {
+    //     name: "TathagatAFarmer",
+    //     url: `${LogoFarmer}`,
+    //     ratings: 4.2,
+    //   },
+    //   price: 120,
+    //   discount_price: 100,
+    //   rating: 4,
+    //   total_sell: 35,
+    //   stock: 10,
+    // },
+    // {
+    //   id: 12,
+    //   name: "GingerPowder",
+    //   jobUrl:"https://chatgpt.com/",
+    //   description:
+    //     "Product Detials Comming Soon.......",
+    //   image_Url: [
+    //     {
+    //       public_id: "test",
+    //       url: `${GingerPowder}`,
+    //     },
+    //     {
+    //       public_id: "test",
+    //       url: `${GingerPowder}`,
+    //     },
+    //   ],
+    //   shop: {
+    //     name: "TathagatAFarmer",
+    //     url: `${LogoFarmer}`,
+    //     ratings: 4.2,
+    //   },
+    //   price: 120,
+    //   discount_price: 100,
+    //   rating: 4,
+    //   total_sell: 35,
+    //   stock: 10,
+    // },
+    // {
+    //   id: 13,
+    //   name: "GoosberryCandy",
+    //   jobUrl:"https://chatgpt.com/",
+    //   description:
+    //     "Product Detials Comming Soon.......",
+    //   image_Url: [
+    //     {
+    //       public_id: "test",
+    //       url: `${GoosberryCandy}`,
+    //     },
+    //     {
+    //       public_id: "test",
+    //       url: `${GoosberryCandy}`,
+    //     },
+    //   ],
+    //   shop: {
+    //     name: "TathagatAFarmer",
+    //     url: `${LogoFarmer}`,
+    //     ratings: 4.2,
+    //   },
+    //   price: 120,
+    //   discount_price: 100,
+    //   rating: 4,
+    //   total_sell: 35,
+    //   stock: 10,
+    // },
+    // {
+    //   id: 14,
+    //   name: "GoosberryPowder",
+    //   jobUrl:"https://chatgpt.com/",
+    //   description:
+    //     "Product Detials Comming Soon.......",
+    //   image_Url: [
+    //     {
+    //       public_id: "test",
+    //       url: `${GoosberryPowder}`,
+    //     },
+    //     {
+    //       public_id: "test",
+    //       url: `${GoosberryPowder}`,
+    //     },
+    //   ],
+    //   shop: {
+    //     name: "TathagatAFarmer",
+    //     url: `${LogoFarmer}`,
+    //     ratings: 4.2,
+    //   },
+    //   price: 120,
+    //   discount_price: 100,
+    //   rating: 4,
+    //   total_sell: 35,
+    //   stock: 10,
+    // },
+    // {
+    //   id: 15,
+    //   name: "GramFlour",
+    //   jobUrl:"https://chatgpt.com/",
+    //   description:
+    //     "Product Detials Comming Soon.......",
+    //   image_Url: [
+    //     {
+    //       public_id: "test",
+    //       url: `${GramFlour}`,
+    //     },
+    //     {
+    //       public_id: "test",
+    //       url: `${GramFlour}`,
+    //     },
+    //   ],
+    //   shop: {
+    //     name: "TathagatAFarmer",
+    //     url: `${LogoFarmer}`,
+    //     ratings: 4.2,
+    //   },
+    //   price: 120,
+    //   discount_price: 100,
+    //   rating: 4,
+    //   total_sell: 35,
+    //   stock: 10,
+    // },
+    // {
+    //   id: 16,
+    //   name: "GroundnutOil",
+    //   jobUrl:"https://chatgpt.com/",
+    //   description:
+    //     "Product Detials Comming Soon.......",
+    //   image_Url: [
+    //     {
+    //       public_id: "test",
+    //       url: `${GroundnutOil}`,
+    //     },
+    //     {
+    //       public_id: "test",
+    //       url: `${GroundnutOil}`,
+    //     },
+    //   ],
+    //   shop: {
+    //     name: "TathagatAFarmer",
+    //     url: `${LogoFarmer}`,
+    //     ratings: 4.2,
+    //   },
+    //   price: 120,
+    //   discount_price: 100,
+    //   rating: 4,
+    //   total_sell: 35,
+    //   stock: 10,
+    // },
+    // {
+    //   id: 17,
+    //   name: "Groundnuts",
+    //   jobUrl:"https://chatgpt.com/",
+    //   description:
+    //     "Product Detials Comming Soon.......",
+    //   image_Url: [
+    //     {
+    //       public_id: "test",
+    //       url: `${Groundnuts}`,
+    //     },
+    //     {
+    //       public_id: "test",
+    //       url: `${Groundnuts}`,
+    //     },
+    //   ],
+    //   shop: {
+    //     name: "TathagatAFarmer",
+    //     url: `${LogoFarmer}`,
+    //     ratings: 4.2,
+    //   },
+    //   price: 120,
+    //   discount_price: 100,
+    //   rating: 4,
+    //   total_sell: 35,
+    //   stock: 10,
+    // },
+    // {
+    //   id: 18,
+    //   name: "AmaranthRajgiraPack",
+    //   jobUrl:"https://chatgpt.com/",
+    //   description:
+    //     "Product Detials Comming Soon.......",
+    //   image_Url: [
+    //     {
+    //       public_id: "test",
+    //       url: `${AmaranthRajgiraPack}`,
+    //     },
+    //     {
+    //       public_id: "test",
+    //       url: `${AmaranthRajgiraPack}`,
+    //     },
+    //   ],
+    //   shop: {
+    //     name: "TathagatAFarmer",
+    //     url: `${LogoFarmer}`,
+    //     ratings: 4.2,
+    //   },
+    //   price: 120,
+    //   discount_price: 100,
+    //   rating: 4,
+    //   total_sell: 35,
+    //   stock: 10,
+    // },
+    // {
+    //   id: 19,
+    //   name: "HennaPowder",
+    //   jobUrl:"https://chatgpt.com/",
+    //   description:
+    //     "Product Detials Comming Soon.......",
+    //   image_Url: [
+    //     {
+    //       public_id: "test",
+    //       url: `${HennaPowder}`,
+    //     },
+    //     {
+    //       public_id: "test",
+    //       url: `${HennaPowder}`,
+    //     },
+    //   ],
+    //   shop: {
+    //     name: "TathagatAFarmer",
+    //     url: `${LogoFarmer}`,
+    //     ratings: 4.2,
+    //   },
+    //   price: 120,
+    //   discount_price: 100,
+    //   rating: 4,
+    //   total_sell: 35,
+    //   stock: 10,
+    // },
+    // {
+    //   id: 20,
+    //   name: "Hibiscus",
+    //   jobUrl:"https://chatgpt.com/",
+    //   description:
+    //     "Product Detials Comming Soon.......",
+    //   image_Url: [
+    //     {
+    //       public_id: "test",
+    //       url: `${Hibiscus}`,
+    //     },
+    //     {
+    //       public_id: "test",
+    //       url: `${Hibiscus}`,
+    //     },
+    //   ],
+    //   shop: {
+    //     name: "TathagatAFarmer",
+    //     url: `${LogoFarmer}`,
+    //     ratings: 4.2,
+    //   },
+    //   price: 120,
+    //   discount_price: 100,
+    //   rating: 4,
+    //   total_sell: 35,
+    //   stock: 10,
+    // },  
+    // {
+    //   id: 21,
+    //   name: "KabuliChana",
+    //   jobUrl:"https://chatgpt.com/",
+    //   description:
+    //     "Product Detials Comming Soon.......",
+    //   image_Url: [
+    //     {
+    //       public_id: "test",
+    //       url: `${KabuliChana}`,
+    //     },
+    //     {
+    //       public_id: "test",
+    //       url: `${KabuliChana}`,
+    //     },
+    //   ],
+    //   shop: {
+    //     name: "TathagatAFarmer",
+    //     url: `${LogoFarmer}`,
+    //     ratings: 4.2,
+    //   },
+    //   price: 120,
+    //   discount_price: 100,
+    //   rating: 4,
+    //   total_sell: 35,
+    //   stock: 10,
+    // },  
+    // {
+    //   id: 22,
+    //   name: "MoringaLeafPowder",
+    //   jobUrl:"https://chatgpt.com/",
+    //   description:
+    //     "Product Detials Comming Soon.......",
+    //   image_Url: [
+    //     {
+    //       public_id: "test",
+    //       url: `${MoringaLeafPowder}`,
+    //     },
+    //     {
+    //       public_id: "test",
+    //       url: `${MoringaLeafPowder}`,
+    //     },
+    //   ],
+    //   shop: {
+    //     name: "TathagatAFarmer",
+    //     url: `${LogoFarmer}`,
+    //     ratings: 4.2,
+    //   },
+    //   price: 120,
+    //   discount_price: 100,
+    //   rating: 4,
+    //   total_sell: 35,
+    //   stock: 10,
+    // },  
+    // {
+    //   id: 23,
+    //   name: "MustardSmall",
+    //   jobUrl:"https://chatgpt.com/",
+    //   description:
+    //     "Product Detials Comming Soon.......",
+    //   image_Url: [
+    //     {
+    //       public_id: "test",
+    //       url: `${MustardSmall}`,
+    //     },
+    //     {
+    //       public_id: "test",
+    //       url: `${MustardSmall}`,
+    //     },
+    //   ],
+    //   shop: {
+    //     name: "TathagatAFarmer",
+    //     url: `${LogoFarmer}`,
+    //     ratings: 4.2,
+    //   },
+    //   price: 120,
+    //   discount_price: 100,
+    //   rating: 4,
+    //   total_sell: 35,
+    //   stock: 10,
+    // },  
+    // {
+    //   id: 24,
+    //   name: "MustardSmallRaiPack",
+    //   jobUrl:"https://chatgpt.com/",
+    //   description:
+    //     "Product Detials Comming Soon.......",
+    //   image_Url: [
+    //     {
+    //       public_id: "test",
+    //       url: `${MustardSmallRaiPack}`,
+    //     },
+    //     {
+    //       public_id: "test",
+    //       url: `${MustardSmallRaiPack}`,
+    //     },
+    //   ],
+    //   shop: {
+    //     name: "TathagatAFarmer",
+    //     jobUrl:"https://chatgpt.com/",
+    //     url: `${LogoFarmer}`,
+    //     ratings: 4.2,
+    //   },
+    //   price: 120,
+    //   discount_price: 100,
+    //   rating: 4,
+    //   total_sell: 35,
+    //   stock: 10,
+    // },  
+    // {
+    //   id: 25,
+    //   name: "Nutripowder",
+    //   jobUrl:"https://chatgpt.com/",
+    //   description:
+    //     "Product Detials Comming Soon.......",
+    //   image_Url: [
+    //     {
+    //       public_id: "test",
+    //       url: `${Nutripowder}`,
+    //     },
+    //     {
+    //       public_id: "test",
+    //       url: `${Nutripowder}`,
+    //     },
+    //   ],
+    //   shop: {
+    //     name: "TathagatAFarmer",
+    //     jobUrl:"https://chatgpt.com/",
+    //     url: `${LogoFarmer}`,
+    //     ratings: 4.2,
+    //   },
+    //   price: 120,
+    //   discount_price: 100,
+    //   rating: 4,
+    //   total_sell: 35,
+    //   stock: 10,
+    // },  
+    // {
+    //   id: 26,
+    //   name: "NutriPwderPack",
+    //   jobUrl:"https://chatgpt.com/",
+    //   description:
+    //     "Product Detials Comming Soon.......",
+    //   image_Url: [
+    //     {
+    //       public_id: "test",
+    //       url: `${NutriPwderPack}`,
+    //     },
+    //     {
+    //       public_id: "test",
+    //       url: `${NutriPwderPack}`,
+    //     },
+    //   ],
+    //   shop: {
+    //     name: "TathagatAFarmer",
+    //     jobUrl:"https://chatgpt.com/",
+    //     url: `${LogoFarmer}`,
+    //     ratings: 4.2,
+    //   },
+    //   price: 120,
+    //   discount_price: 100,
+    //   rating: 4,
+    //   total_sell: 35,
+    //   stock: 10,
+    // },  
+    // {
+    //   id: 27,
+    //   name: "TurmericHighCurcumin",
+    //   jobUrl:"https://chatgpt.com/",
+    //   description:
+    //     "Product Detials Comming Soon.......",
+    //   image_Url: [
+    //     {
+    //       public_id: "test",
+    //       url: `${TurmericHighCurcumin}`,
+    //     },
+    //     {
+    //       public_id: "test",
+    //       url: `${TurmericHighCurcumin}`,
+    //     },
+    //   ],
+    //   shop: {
+    //     name: "TathagatAFarmer",
+    //     url: `${LogoFarmer}`,
+    //     ratings: 4.2,
+    //   },
+    //   price: 120,
+    //   discount_price: 100,
+    //   rating: 4,
+    //   total_sell: 35,
+    //   stock: 10,
+    // },  
+    // {
+    //   id: 28,
+    //   name: "SesamOil",
+    //   jobUrl:"https://chatgpt.com/",
+    //   description:
+    //     "Product Detials Comming Soon.......",
+    //   image_Url: [
+    //     {
+    //       public_id: "test",
+    //       url: `${SesamOil}`,
+    //     },
+    //     {
+    //       public_id: "test",
+    //       url: `${SesamOil}`,
+    //     },
+    //   ],
+    //   shop: {
+    //     name: "TathagatAFarmer",
+    //     jobUrl:"https://chatgpt.com/",
+    //     url: `${LogoFarmer}`,
+    //     ratings: 4.2,
+    //   },
+    //   price: 120,
+    //   discount_price: 100,
+    //   rating: 4,
+    //   total_sell: 35,
+    //   stock: 10,
+    // },  
+    // {
+    //   id: 29,
+    //   name: "RoselleFlower",
+    //   jobUrl:"https://chatgpt.com/",
+    //   description:
+    //     "Product Detials Comming Soon.......",
+    //   image_Url: [
+    //     {
+    //       public_id: "test",
+    //       url: `${RoselleFlower}`,
+    //     },
+    //     {
+    //       public_id: "test",
+    //       url: `${RoselleFlower}`,
+    //     },
+    //   ],
+    //   shop: {
+    //     name: "TathagatAFarmer",
+    //     url: `${LogoFarmer}`,
+    //     ratings: 4.2,
+    //   },
+    //   price: 120,
+    //   discount_price: 100,
+    //   rating: 4,
+    //   total_sell: 35,
+    //   stock: 10,
+    // },  
+    // {
+    //   id: 30,
+    //   name: "RoselleCandy",
+    //   jobUrl:"https://chatgpt.com/",
+    //   description:
+    //     "Product Detials Comming Soon.......",
+    //   image_Url: [
+    //     {
+    //       public_id: "test",
+    //       url: `${RoselleCandy}`,
+    //     },
+    //     {
+    //       public_id: "test",
+    //       url: `${RoselleCandy}`,
+    //     },
+    //   ],
+    //   shop: {
+    //     name: "TathagatAFarmer",
+    //     url: `${LogoFarmer}`,
+    //     ratings: 4.2,
+    //   },
+    //   price: 120,
+    //   discount_price: 100,
+    //   rating: 4,
+    //   total_sell: 35,
+    //   stock: 10,
+    // },  
+    // {
+    //   id: 31,
+    //   name: "RoastedFlaxSeed ",
+    //   jobUrl:"https://chatgpt.com/",
+    //   description:
+    //     "Product Detials Comming Soon.......",
+    //   image_Url: [
+    //     {
+    //       public_id: "test",
+    //       url: `${RoastedFlaxSeed }`,
+    //     },
+    //     {
+    //       public_id: "test",
+    //       url: `${RoastedFlaxSeed }`,
+    //     },
+    //   ],
+    //   shop: {
+    //     name: "TathagatAFarmer",
+    //     url: `${LogoFarmer}`,
+    //     ratings: 4.2,
+    //   },
+    //   price: 120,
+    //   discount_price: 100,
+    //   rating: 4,
+    //   total_sell: 35,
+    //   stock: 10,
+    // },  
+    // {
+    //   id: 32,
+    //   name: "PigeonpeasSplit",
+    //   jobUrl:"https://chatgpt.com/",
+    //   description:
+    //     "Product Detials Comming Soon.......",
+    //   image_Url: [
+    //     {
+    //       public_id: "test",
+    //       url: `${PigeonpeasSplit}`,
+    //     },
+    //     {
+    //       public_id: "test",
+    //       url: `${PigeonpeasSplit}`,
+    //     },
+    //   ],
+    //   shop: {
+    //     name: "TathagatAFarmer",
+    //     url: `${LogoFarmer}`,
+    //     ratings: 4.2,
+    //   },
+    //   price: 120,
+    //   discount_price: 100,
+    //   rating: 4,
+    //   total_sell: 35,
+    //   stock: 10,
+    // },  
      
   ];
   

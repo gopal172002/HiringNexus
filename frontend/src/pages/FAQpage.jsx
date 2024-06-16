@@ -685,7 +685,7 @@ const Faq = () => {
                     {activeTab === 7 && (
                         <div className="mt-4">
                             <p className="text-base text-gray-500">
-                                You can contact our support team by emailing us at support@jobfinder.com, or by calling us at 1-800-555-1234 between the hours of 9am and 5pm EST, Monday through Friday.
+                                You can contact our support team by emailing us at support@Hiringnexus.com, or by calling us at 1-800-555-1234 between the hours of 9am and 5pm EST, Monday through Friday.
                             </p>
                         </div>
                     )}

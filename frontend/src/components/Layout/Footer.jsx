@@ -11,7 +11,7 @@ import {
     footerProductLinks,
     footerSupportLinks,
 } from "../../static/data";
-import logoimage from '../../images/logoFarmer.png'
+import logoimage from '../../images/hiringnexus.png'
 const Footer = () => {
     return (
         <div className="bg-[#000] text-white">
@@ -19,14 +19,14 @@ const Footer = () => {
                 <ul className="px-5 text-center sm:text-start flex sm:block flex-col items-center">
        
 <img
-    // src={logoimage}
+    src={logoimage}
     alt="logo"
     class="w-40 h-30"
 />
 
 
                     <br />
-                    <p>JobFinder is one stop solution for engineers ! A platform to learn in community,job openings, explore campuses & get placed in dream companies.</p>
+                    <p>HiringNexus is one stop solution for engineers ! A platform to learn in community,job openings, explore campuses & get placed in dream companies.</p>
                     <div className="flex items-center mt-[15px]">
     <a href="https://www.facebook.com/share/VLZ1xx8Hw2JFD4tw/?mibextid=qi2Omg" target="_blank" rel="noopener noreferrer">
         <AiFillFacebook size={25} className="cursor-pointer" />

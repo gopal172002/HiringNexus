@@ -15,7 +15,7 @@ import { useSelector } from "react-redux";
 import Cart from "../cart/Cart";
 import Wishlist from "../Wishlist/Wishlist";
 import { RxCross1 } from "react-icons/rx";
-import LogoImage from '../../images/logoFarmer.png' 
+import LogoImage from '../../images/hiringnexus.png' 
 const Header = ({ activeHeading }) => {
     const { isAuthenticated, user } = useSelector((state) => state.user);
     const { isSeller } = useSelector((state) => state.seller);
@@ -54,10 +54,10 @@ const Header = ({ activeHeading }) => {
         <>
             <div className={`${styles.section}`}>
                 <div className="hidden 800px:h-[50px] 800px:my-[20px] 800px:flex items-center justify-between">
-                <div className="w-full h-full flex items-center justify-start">
+<div className="w-full h-full flex items-center justify-start">
     <Link to="/">
         <img
-            // src={LogoImage}
+            src={LogoImage}
             alt="logo"
             className="w-24 h-auto " // Add responsive margin-left classes
         />
@@ -200,12 +200,12 @@ const Header = ({ activeHeading }) => {
                             onClick={() => setOpen(true)}
                         />
                     </div>
-                    <div className="w-full h-full flex items-center justify-center">
+<div className="w-full h-full flex items-center justify-center">
     <Link to="/">
         <img
             src={LogoImage}
             alt="logo"
-            className="w-24 h-auto " // Add responsive margin-left classes
+            className="w-24 h-[60px] " // Add responsive margin-left classes
         />
     </Link>
 </div>
