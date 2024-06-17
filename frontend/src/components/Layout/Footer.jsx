@@ -28,22 +28,22 @@ const Footer = () => {
                     <br />
                     <p>HiringNexus is one stop solution for engineers ! A platform to learn in community,job openings, explore campuses & get placed in dream companies.</p>
                     <div className="flex items-center mt-[15px]">
-    <a href="https://www.facebook.com/share/VLZ1xx8Hw2JFD4tw/?mibextid=qi2Omg" target="_blank" rel="noopener noreferrer">
+    <a href="/" target="_blank" rel="noopener noreferrer">
         <AiFillFacebook size={25} className="cursor-pointer" />
     </a>
-    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+    <a href="/" target="_blank" rel="noopener noreferrer">
         <AiOutlineTwitter
             size={25}
             style={{ marginLeft: "15px", cursor: "pointer" }}
         />
     </a>
-    <a href="https://www.instagram.com/tathabarodh?igsh=MXAyNGV0aW9iaDdvYQ==" target="_blank" rel="noopener noreferrer">
+    <a href="/" target="_blank" rel="noopener noreferrer">
         <AiFillInstagram
             size={25}
             style={{ marginLeft: "15px", cursor: "pointer" }}
         />
     </a>
-    <a href="https://youtube.com/@tathagatbarodh4258?si=CpWI_4CCaICf6SM9" target="_blank" rel="noopener noreferrer">
+    <a href="/" target="_blank" rel="noopener noreferrer">
         <AiFillYoutube
             size={25}
             style={{ marginLeft: "15px", cursor: "pointer" }}

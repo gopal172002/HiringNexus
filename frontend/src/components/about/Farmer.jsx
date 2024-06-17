@@ -28,7 +28,7 @@ function About() {
         <div className="mb-8">
           <h3 className="text-3xl font-bold mb-4">Contact Us</h3>
           <p className="text-lg leading-relaxed">
-            If you have any questions or need assistance, feel free to reach out to our support team at <a href="mailto:support@hiringnexus.com" className="text-blue-500">support@hiringnexus.com</a>. We’re here to help!
+            If you have any questions or need assistance, feel free to reach out to our support team at <a href="mailto:gopalkalsiya1h@gmail.com" className="text-blue-500">gopalkalsiya1h@gmail.com</a>. We’re here to help!
           </p>
         </div>
 
@@ -38,10 +38,10 @@ function About() {
             Stay updated on the latest job openings, career tips, and industry news by following us on our social media channels:
           </p>
           <ul className="list-disc list-inside mt-4">
-            <li><a href="https://www.facebook.com" className="text-blue-500" target="_blank" rel="noopener noreferrer">Facebook</a></li>
-            <li><a href="https://www.twitter.com" className="text-blue-500" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-            <li><a href="https://www.linkedin.com" className="text-blue-500" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-            <li><a href="https://www.instagram.com" className="text-blue-500" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            <li><a href="/" className="text-blue-500" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+            <li><a href="/" className="text-blue-500" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+            <li><a href="/" className="text-blue-500" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            <li><a href="/" className="text-blue-500" target="_blank" rel="noopener noreferrer">Instagram</a></li>
           </ul>
         </div>
       </div>
